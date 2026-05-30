@@ -1,0 +1,2893 @@
+text,intent
+please what is the speed of light,out_of_scope
+can you what is the meaning of life,out_of_scope
+please i need a daily reminder for my prescription,medication_reminder
+please good evening,greeting
+i need a referral to a consultant right now,book_appointment
+i want push notifications instead right now,update_preferences
+my card has been used fraudulently,report_fraud
+please how to raise my credit score,check_credit_score
+find a vegetarian friendly restaurant,restaurant_suggest
+can you create a reminder for 3pm,set_reminder
+please request pto for my holiday,submit_leave
+do i have private health insurance please,insurance_query
+do i have enough days for a 5 day break please,check_pto
+please how long since my last oil change,car_maintenance
+i'd like to need a daily reminder for my prescription,medication_reminder
+can you when is my car service due,car_maintenance
+please show me the office schedule,work_schedule
+please how long does a transfer take,make_transfer
+can you remind me later please,set_reminder
+i finished the report mark it done right now,manage_todo
+can you is my car insurance up to date,car_maintenance
+block my card immediately suspicious activity please,report_fraud
+can we set up a zoom call please,schedule_meeting
+i finished the report mark it done,manage_todo
+please what is due at the end of the month,check_bill_due
+track my food delivery,order_food
+what flights are available to amsterdam please,book_flight
+find me somewhere to eat please,restaurant_suggest
+what is my leave entitlement,check_pto
+can you i need to review the project timeline,task_management
+please i need to know my balance,check_balance
+i want to personalise my assistant please,update_preferences
+search for business class flights right now,book_flight
+suggest a plant based dinner,dietary_advice
+show my heart rate data please,track_fitness
+set a countdown timer please,set_alarm
+i require ideas for a high protein breakfast,dietary_advice
+tell me a joke,out_of_scope
+how active have i been this week,track_fitness
+i need a referral to a consultant please,book_appointment
+when does my car tax expire right now,car_maintenance
+please can i take a week off,check_pto
+why did my credit score drop,check_credit_score
+tell me about my upcoming flight right now,check_flight_status
+can you what meetings do i have this week,check_schedule
+are there any bills i might miss please,check_bill_due
+please add a reminder to my list,set_reminder
+what documents do i need to travel right now,travel_documents
+how do i cancel my trip please,cancel_booking
+can you update the status of my task,manage_todo
+i need pet friendly accommodation please,book_hotel
+can you i need a 25 minute timer,set_alarm
+can you suggest something i can cook with chicken,dietary_advice
+can you show me my flight booking,check_flight_status
+what is the speed of light,out_of_scope
+are you able to book flights right now,capabilities
+has my credit score changed please,check_credit_score
+what are the best restaurants nearby right now,restaurant_suggest
+how is my credit rating right now,check_credit_score
+i want to stay in a 4 star hotel,book_hotel
+i would like to play a trivia game,out_of_scope
+please i want to stay in a 4 star hotel,book_hotel
+can you what is hurting my credit score,check_credit_score
+i require to schedule a one to one,schedule_meeting
+make a gp appointment for tomorrow right now,book_appointment
+has my flight been cancelled right now,check_flight_status
+show my current account funds,check_balance
+i need to eat more vegetables suggest something,dietary_advice
+can you update my preferences,update_preferences
+i'd like to finished the presentation mark it done,task_management
+can you organise a planning session for the team,schedule_meeting
+what are my options for eating out tonight,restaurant_suggest
+remove all alarms please,set_alarm
+please what is my agenda for today,check_schedule
+show me my commitments this week right now,check_schedule
+what are some gluten free snacks right now,dietary_advice
+check my appointments for this week,check_schedule
+i have a meeting to arrange please,schedule_meeting
+please can you remind me later,set_reminder
+is my schedule clear for monday,check_schedule
+find me an easy vegetarian recipe right now,dietary_advice
+how to raise my credit score please,check_credit_score
+can you i need to visit the hospital,book_appointment
+can you has my credit score changed,check_credit_score
+someone used my card without permission right now,report_fraud
+did i'd like to hit my fitness goal today,track_fitness
+please add a recurring task,manage_todo
+check my leave balance right now,check_pto
+tell me a fun fact about space,out_of_scope
+tell me about health requirements for travel please,travel_documents
+should i leave early today please,commute_traffic
+what will the stock market do tomorrow,out_of_scope
+can i'd like to book a last minute flight,book_flight
+suggest something i can cook with chicken,dietary_advice
+i want to take time off please,submit_leave
+please can we set up a zoom call,schedule_meeting
+what time do i start work tomorrow please,work_schedule
+can you what is the dress code for this meeting,work_schedule
+i'd like to want to know your capabilities,capabilities
+tell me the dress code for this meeting,work_schedule
+please cancel my upcoming booking please,cancel_booking
+please my card has been used fraudulently,report_fraud
+please how much do i have right now,check_balance
+can i transfer money internationally right now,make_transfer
+can i move money between accounts right now,make_transfer
+please i need a hotel with breakfast included,book_hotel
+how do i transfer funds right now,make_transfer
+find recipes that match my diet,dietary_advice
+please i have a meeting to arrange,schedule_meeting
+please is there a delay on my flight,check_flight_status
+show me my activity for the week please,track_fitness
+i need to review the project timeline,task_management
+i need to know my balance,check_balance
+i need to see someone about my back pain,book_appointment
+how long since my last oil change please,car_maintenance
+i want to take a day off on monday please,submit_leave
+please schedule a meeting for tomorrow,schedule_meeting
+i would like to get takeaway,order_food
+can you find me a healthy recipe,dietary_advice
+is my insurance policy up to date please,insurance_query
+send money to another account right now,make_transfer
+please i prefer formal language please,update_preferences
+can you track whether i have taken my medicine today,medication_reminder
+turn off all devices right now,control_home
+i'd like to need to organise my tasks,manage_todo
+please how is my credit rating,check_credit_score
+what is on my task list today,manage_todo
+i require to travel urgently book a flight,book_flight
+hello please,greeting
+add a high priority item to my list,manage_todo
+please put in a leave request for me,submit_leave
+what alarms do i'd like to have set,set_alarm
+i want to reset my settings right now,update_preferences
+i want to take the week before christmas off,submit_leave
+i no longer need this booking right now,cancel_booking
+tell me a good vegetarian protein source,dietary_advice
+please how can you help me,capabilities
+please set a reminder for my tablets,medication_reminder
+show my workout summary please,track_fitness
+please i want to be notified about something,set_reminder
+should i leave early today,commute_traffic
+please book holiday dates please,submit_leave
+add a recurring task,manage_todo
+please what is my deadline for this project,task_management
+is my passport expiring soon please,travel_documents
+i want to know my credit score please,check_credit_score
+check my energy usage today right now,control_home
+please book accommodation for my trip,book_hotel
+can you set a countdown timer,set_alarm
+hey jarvis,greeting
+what tasks can i give you please,capabilities
+can you i no longer want sms notifications,update_preferences
+please i want to reset my settings,update_preferences
+can you book my car in for a service,car_maintenance
+show me my activity for the week right now,track_fitness
+please what is blocking my current task,task_management
+i need to know my balance right now,check_balance
+order food for delivery right now,order_food
+what time do i'd like to start work tomorrow,work_schedule
+find me the earliest available doctor,book_appointment
+find me somewhere to eat,restaurant_suggest
+please can you book me into a hotel,book_hotel
+how much is in my account right now,check_balance
+please add a task to my to do list,manage_todo
+can you how many calories have i burned,track_fitness
+cancel the friday team meeting please,schedule_meeting
+please help me transfer money,make_transfer
+please update the status of my report,task_management
+order something vegetarian for dinner,order_food
+i'd like to forgot to take my tablets,medication_reminder
+i need a place to stay next week,book_hotel
+i'd like to need a flight ticket,book_flight
+submit a half day leave request,submit_leave
+tell me my agenda for today,check_schedule
+please i need a place to stay next week,book_hotel
+can you book annual leave for next week,submit_leave
+i never made this transaction please,report_fraud
+display my commitments this week,check_schedule
+please can i see my credit report,check_credit_score
+please there is a transaction i did not make,report_fraud
+what is the baggage allowance for my flight please,travel_documents
+what is my current balance please,check_balance
+can you i need to dispute an unauthorised payment,report_fraud
+show me my credit history right now,check_credit_score
+process my leave request for next month right now,submit_leave
+suggest something i can cook with chicken please,dietary_advice
+please dim the bedroom lights,control_home
+tell me planned for the weekend,check_schedule
+can you show tasks due this week,manage_todo
+i need to organise my tasks,manage_todo
+can you i finished the report mark it done,manage_todo
+please check my car maintenance schedule,car_maintenance
+can you turn off all the lights,control_home
+what vaccinations do i need for travel please,travel_documents
+can you i want to see my leave history,check_pto
+find hotels near my meeting venue right now,book_hotel
+alert me before my deadline right now,set_reminder
+what is my step count right now,track_fitness
+set an alert for my meeting,set_reminder
+i want to try something new for dinner please,dietary_advice
+please will i be late if i leave now,commute_traffic
+what is my savings account balance,check_balance
+tell me the status of my flight,check_flight_status
+find a restaurant open right now please,restaurant_suggest
+can you apply for unpaid leave,submit_leave
+can you when does my electricity bill get charged,check_bill_due
+how long did i'd like to sleep,track_fitness
+i want to order gluten free food right now,order_food
+is there traffic on my commute,commute_traffic
+what is on my calendar,check_schedule
+have i'd like to missed any medication today,medication_reminder
+can you i need to call off my trip,cancel_booking
+please find a restaurant with good reviews,restaurant_suggest
+i need to visit the hospital please,book_appointment
+please request time off for my trip,submit_leave
+move my 2pm meeting to 4pm right now,schedule_meeting
+tell me my savings account balance,check_balance
+apply for annual leave right now,submit_leave
+can you add a task to my to do list,manage_todo
+how do i make an insurance claim please,insurance_query
+can you i want to cancel and rebook,cancel_booking
+show me my commitments this week,check_schedule
+how much is my insurance premium,insurance_query
+please is my balance enough for a purchase,check_balance
+what alarms do i have set,set_alarm
+i would like to take the week before christmas off,submit_leave
+who won the football last night right now,out_of_scope
+set a weekly reminder please please,set_reminder
+update my preferences please,update_preferences
+what can i ask you right now,capabilities
+is the dart running on time right now,commute_traffic
+i keep forgetting things set a reminder,set_reminder
+i take ramipril daily remind me please please,medication_reminder
+please i keep forgetting things set a reminder,set_reminder
+hey right now,greeting
+can you what are the best hotels for my trip,book_hotel
+cancel my flight booking reference,cancel_booking
+how long did i sleep,track_fitness
+i need to see someone about my back pain right now,book_appointment
+show my home security camera please,control_home
+i'd like to want to stay in a 4 star hotel,book_hotel
+can you i need to make a medical appointment,book_appointment
+move my 2pm meeting to 4pm please,schedule_meeting
+i need to dispute an unauthorised payment,report_fraud
+please how busy is the motorway right now,commute_traffic
+please set an alert for my meeting,set_reminder
+can you what work is due this week,task_management
+why did my credit score drop right now,check_credit_score
+what can i eat for dinner tonight,dietary_advice
+can you i want to play a trivia game,out_of_scope
+can you what travel documents should i bring,travel_documents
+hello i need help please,greeting
+please tell me about visa requirements,travel_documents
+what are some gluten free snacks please,dietary_advice
+can you i need ideas for a high protein breakfast,dietary_advice
+please cancel the restaurant reservation,cancel_booking
+do i require a visa for france,travel_documents
+hi i want to ask something,greeting
+put in a leave request for me please,submit_leave
+i see a charge i dont recognise please,report_fraud
+show me my pending tasks,manage_todo
+how can i improve my credit score please,check_credit_score
+what are the entry requirements for the usa right now,travel_documents
+review my upcoming schedule please,check_schedule
+do i'd like to have enough days for a 5 day break,check_pto
+what is my car registration,car_maintenance
+remind me about my evening dose right now,medication_reminder
+please show my current account funds,check_balance
+can you greetings,greeting
+are there any delays on my commute please,commute_traffic
+find me a healthy recipe please,dietary_advice
+can you i have to cancel my plans can you help,cancel_booking
+find a free slot for a meeting next week,schedule_meeting
+i want to fly this weekend please,book_flight
+i see a charge i dont recognise right now,report_fraud
+what is a good spot for a date night please,restaurant_suggest
+please how long is my visa valid for,travel_documents
+update my preferences right now,update_preferences
+please submit a half day leave request,submit_leave
+i need to change my travel plans please,cancel_booking
+good afternoon,greeting
+can you my identity may have been stolen,report_fraud
+can you compose an email to my colleague,out_of_scope
+is the dart running on time,commute_traffic
+please transfer 500 euros to my savings,make_transfer
+i want a gradual wake alarm right now,set_alarm
+can you add extra items to my order,order_food
+check traffic on my usual route,commute_traffic
+can you how many miles since my last service,car_maintenance
+confirm my flight for tomorrow,check_flight_status
+please i need to see someone about my back pain,book_appointment
+please find the cheapest flight to rome,book_flight
+find direct flights to dubai,book_flight
+can you do i have any bills this week,check_bill_due
+check my appointments for this week right now,check_schedule
+please when is my next doctors appointment,book_appointment
+can you i want to try something new for dinner,dietary_advice
+i need a flight ticket right now,book_flight
+set a recurring reminder for my medication,medication_reminder
+i'd like to want a low calorie dinner idea,dietary_advice
+schedule a gp visit for me,book_appointment
+i feel like going for indian food please,restaurant_suggest
+how long did i sleep please,track_fitness
+flag a suspicious charge,report_fraud
+what movies are showing tonight right now,out_of_scope
+can you i need a gluten free recipe,dietary_advice
+what alarms do i have set right now,set_alarm
+i need to book a hotel,book_hotel
+find a doctor available this week please,book_appointment
+what score do i need for a mortgage,check_credit_score
+what are the entry requirements for the usa please,travel_documents
+how many steps have i'd like to taken today,track_fitness
+can you dim the bedroom lights,control_home
+please find me a free appointment slot,book_appointment
+please remove all alarms,set_alarm
+flag a suspicious charge right now,report_fraud
+i'd like to have to cancel my plans can you help,cancel_booking
+dim the bedroom lights,control_home
+show me my insurance details,insurance_query
+suggest a place that fits my diet please,restaurant_suggest
+remind me with an alarm in 2 hours please,set_alarm
+can you what do i owe this month,check_bill_due
+update my dietary preference to vegan,update_preferences
+can you how long does a transfer take,make_transfer
+my check engine light came on right now,car_maintenance
+can you manage my work tasks please,capabilities
+can you i want a gradual wake alarm,set_alarm
+submit a half day leave request right now,submit_leave
+please i want to order gluten free food,order_food
+can you are there any travel restrictions right now,travel_documents
+can you how to raise my credit score,check_credit_score
+order something vegetarian for dinner please,order_food
+what does my health insurance cover please,insurance_query
+can you help me find a flight,book_flight
+please show my home security camera,control_home
+what hospital am i covered in,insurance_query
+report a suspicious transaction right now,report_fraud
+am i close to my step goal right now,track_fitness
+please check the departure time of my flight,check_flight_status
+what time does the office open right now,work_schedule
+i forgot to take my tablets,medication_reminder
+when is my subscription payment please,check_bill_due
+do i need to print my boarding pass please,travel_documents
+what tasks can i give you right now,capabilities
+find a gluten free restaurant right now,restaurant_suggest
+please i want to take time off,submit_leave
+i no longer want sms notifications,update_preferences
+can you i want to change my language setting,update_preferences
+i would like to book a flight,book_flight
+how do i get my money back for a cancelled trip,cancel_booking
+what is my insurance plan name,insurance_query
+i need to send money abroad,make_transfer
+please submit a pto request for july,submit_leave
+can you find a vegetarian friendly restaurant,restaurant_suggest
+what meetings do i have at work right now,work_schedule
+can you how do i transfer to a different bank,make_transfer
+track whether i'd like to have taken my medicine today,medication_reminder
+book a doctor appointment,book_appointment
+what medication do i take in the morning right now,medication_reminder
+dim the bedroom lights right now,control_home
+what are the customs rules when arriving please,travel_documents
+i want to personalise my assistant right now,update_preferences
+please what can i ask you,capabilities
+can you wake me up early for my flight,set_alarm
+i'd like to want push notifications instead,update_preferences
+can you turn off all devices,control_home
+can you i see a charge i dont recognise,report_fraud
+what alarms do i have set please,set_alarm
+is my car insurance up to date right now,car_maintenance
+what is my agenda for today please,check_schedule
+i need to be reminded about an appointment,set_reminder
+what project am i working on right now,task_management
+schedule a gp visit for me please,book_appointment
+how is the traffic this morning,commute_traffic
+place an order from dominos right now,order_food
+transfer 500 euros to my savings right now,make_transfer
+book annual leave for next week please,submit_leave
+i'd like to take ramipril daily remind me please,medication_reminder
+when is my next doctors appointment right now,book_appointment
+please i need a 25 minute timer,set_alarm
+can i see my credit report,check_credit_score
+please what floor is my team on,work_schedule
+change my home address please,update_preferences
+what floor is my team on,work_schedule
+can you what is the status of my flight,check_flight_status
+what meetings do i have this week,check_schedule
+can you when does my next flight leave,check_flight_status
+cancel my hotel reservation right now,cancel_booking
+check road conditions for my journey right now,commute_traffic
+can you what is my leave entitlement,check_pto
+i feel like going for indian food,restaurant_suggest
+translate this sentence to japanese please,out_of_scope
+how many days off can i still take,check_pto
+predict the lottery numbers right now,out_of_scope
+what is my step count,track_fitness
+please check the progress on my tasks,task_management
+i need a weekend alarm please,set_alarm
+get me a pizza delivered please,order_food
+can you find a doctor available this week,book_appointment
+what is a good vegetarian protein source,dietary_advice
+what does my health insurance cover,insurance_query
+can you what is my agenda for today,check_schedule
+set up a transfer for me,make_transfer
+what do i have on today,check_schedule
+can you how much is my insurance premium,insurance_query
+activate the security alarm,control_home
+can you book a dental appointment,book_appointment
+hello jarvis are you there,greeting
+please i need to book 5 days off,submit_leave
+find me a hotel in paris,book_hotel
+can you is my schedule clear for monday,check_schedule
+can you remind me about my evening dose,medication_reminder
+please set the lights to movie mode,control_home
+tell me the capital of mongolia,out_of_scope
+apply for unpaid leave please,submit_leave
+what is the most urgent task,manage_todo
+how do i do a bank transfer right now,make_transfer
+i'd like to want to try something new to eat,restaurant_suggest
+how can i'd like to improve my credit score,check_credit_score
+i want to get takeaway,order_food
+is outpatient treatment covered right now,insurance_query
+turn off notifications right now,update_preferences
+can you find hotels with gym facilities,book_hotel
+tell me my balance please right now,check_balance
+please give me a traffic report for my area,commute_traffic
+can you tell me my creditworthiness,check_credit_score
+please book me somewhere to stay in london,book_hotel
+is my passport valid for this trip please,travel_documents
+i want to get takeaway right now,order_food
+i want a low calorie dinner idea,dietary_advice
+tell me my insurance excess,insurance_query
+please suggest a place that fits my diet,restaurant_suggest
+i need to take next friday off right now,submit_leave
+please move my 2pm meeting to 4pm,schedule_meeting
+please what is the dress code for this meeting,work_schedule
+confirm my flight for tomorrow please,check_flight_status
+check if the door is locked right now,control_home
+please i need to see a doctor,book_appointment
+i require to make a medical appointment,book_appointment
+lock the front door,control_home
+can you what restaurants can i book for this weekend,restaurant_suggest
+update my profile,update_preferences
+i need to fly to paris please,book_flight
+tell me on my task list today,manage_todo
+my tyre pressure light is on please,car_maintenance
+what is hurting my credit score,check_credit_score
+is there traffic on my commute please,commute_traffic
+can i book a last minute flight right now,book_flight
+please what recurring payments do i have,check_bill_due
+book a meeting room please,schedule_meeting
+hey i have a question,greeting
+help me understand what you can do please,capabilities
+alert me when it is time for my next dose,medication_reminder
+add extra items to my order,order_food
+tell me what you are capable of please,capabilities
+show me my account balance right now,check_balance
+what is my credit score,check_credit_score
+do i have any bills this week right now,check_bill_due
+hello i need help,greeting
+i require to book a hotel,book_hotel
+please change my alarm tone,update_preferences
+can you set up a call with my manager,schedule_meeting
+what fees apply to transfers please,make_transfer
+suggest a vegetarian meal right now,dietary_advice
+is the dart running on time please,commute_traffic
+please lock the front door,control_home
+find hotels with gym facilities right now,book_hotel
+please show me my work tasks,task_management
+can you add a recurring reminder,set_reminder
+i need to travel urgently book a flight please,book_flight
+can you manage my calendar,capabilities
+how many sick days have i used right now,check_pto
+what can i cook without gluten please,dietary_advice
+can you i need to eat more vegetables suggest something,dietary_advice
+please i need to fly to paris,book_flight
+please order food for delivery,order_food
+what documents do i need to travel,travel_documents
+snooze my alarm please,set_alarm
+please wake me up at 6 30,set_alarm
+tell me due at the end of the month,check_bill_due
+update my date of birth,update_preferences
+am i free on friday,check_schedule
+i need to dispute an unauthorised payment please,report_fraud
+i would like to make a payment to someone,make_transfer
+please what is planned for the weekend,check_schedule
+i need to organise my tasks right now,manage_todo
+tell me the best route to work,commute_traffic
+tell me happening tomorrow,check_schedule
+can you transfer 500 euros to my savings,make_transfer
+i require a hotel with breakfast included,book_hotel
+please what is my shift pattern,work_schedule
+what are the entry requirements for the usa,travel_documents
+what services can you help with please,capabilities
+find hotels near my meeting venue,book_hotel
+can you i have a meeting to arrange,schedule_meeting
+please how many steps to hit my daily goal,track_fitness
+can you request parental leave,submit_leave
+help me find a flight,book_flight
+what tasks can i'd like to give you,capabilities
+what id do i require at the airport,travel_documents
+can you hello assistant,greeting
+do i have any bills this week please,check_bill_due
+please plan my meals for the week,dietary_advice
+find a restaurant open right now right now,restaurant_suggest
+tell me the fastest way to the office,commute_traffic
+set an alert for my meeting please,set_reminder
+please can i claim for physiotherapy,insurance_query
+can you wake me up at 6 30,set_alarm
+i think my account has been hacked,report_fraud
+hi what can you do please,greeting
+i would like to cancel and rebook,cancel_booking
+i need to book a mot,car_maintenance
+suggest somewhere italian near me right now,restaurant_suggest
+where is my office located please,work_schedule
+how do i'd like to do a bank transfer,make_transfer
+can you i finished the presentation mark it done,task_management
+i want to change my hotel booking please,book_hotel
+set multiple alarms for the morning,set_alarm
+please book a hotel room for two nights,book_hotel
+can you i need pet friendly accommodation,book_hotel
+my identity may have been stolen please,report_fraud
+can you i need to see a doctor,book_appointment
+send a progress update for my project right now,task_management
+someone has stolen my card details right now,report_fraud
+can you what is the baggage allowance for my flight,travel_documents
+can you hi i want to ask something,greeting
+please do i have a busy day tomorrow,check_schedule
+tell me about my upcoming financial obligations,check_bill_due
+tell me my balance please please,check_balance
+i require to send a payment,make_transfer
+can you do i need a visa for france,travel_documents
+please do i have anything scheduled for this afternoon,check_schedule
+block out time for a presentation please,schedule_meeting
+wake me up early for my flight please,set_alarm
+please what is the cheapest delivery right now,order_food
+can i see tell me on my credit report,check_credit_score
+what is the full list of things you do right now,capabilities
+have i been hitting my daily goals,track_fitness
+someone used my card without permission,report_fraud
+can you what temperature is the house,control_home
+check my upcoming payment dates,check_bill_due
+check my holiday allowance,check_pto
+tell me the parking situation at the office,commute_traffic
+help me find a flight please,book_flight
+show me my schedule for the week please,check_schedule
+do i have a busy day tomorrow,check_schedule
+how much annual leave do i have,check_pto
+i need to arrange a meeting with my team right now,schedule_meeting
+book my car in for a service please,car_maintenance
+please is my passport expiring soon,travel_documents
+what documents do i need to travel please,travel_documents
+set a daily reminder for me please,set_reminder
+when does my car tax expire,car_maintenance
+please hello assistant,greeting
+please set up a call with my manager,schedule_meeting
+can i transfer money internationally,make_transfer
+can you show me all your features,capabilities
+set the heating to come on at 6pm right now,control_home
+i'd like to need to call off my trip,cancel_booking
+i need to fly to paris right now,book_flight
+i need to eat more vegetables suggest something right now,dietary_advice
+please give me a fitness progress update,track_fitness
+do i have any holidays left please,check_pto
+set up medication reminders for me please,medication_reminder
+recommend a good place for lunch right now,restaurant_suggest
+how do i'd like to cancel my trip,cancel_booking
+am i covered for this procedure please,insurance_query
+good evening,greeting
+find the best rated hotels in rome please,book_hotel
+i want to see my itinerary,check_flight_status
+give me an update on my flight right now,check_flight_status
+can i schedule a future transfer,make_transfer
+please when is my car service due,car_maintenance
+please am i in the office tomorrow,work_schedule
+i want to change my hotel booking right now,book_hotel
+make a gp appointment for tomorrow please,book_appointment
+i take ramipril daily remind me please,medication_reminder
+is my dental covered by insurance right now,insurance_query
+can you am i in the office tomorrow,work_schedule
+hi there please,greeting
+can you hi there what can you do,greeting
+can you who is my manager,work_schedule
+can you withdraw my booking,cancel_booking
+please show me my credit history,check_credit_score
+can you my check engine light came on,car_maintenance
+please suggest somewhere italian near me,restaurant_suggest
+display my credit history,check_credit_score
+what is my savings account balance please,check_balance
+set a reminder for me please,set_reminder
+can you show me my annual leave status,check_pto
+can you reorder my usual,order_food
+i finished the presentation mark it done,task_management
+can you there is an unauthorised payment on my account,report_fraud
+please alert me before my deadline,set_reminder
+i need to book a mot right now,car_maintenance
+can you have i been hitting my daily goals,track_fitness
+i require to organise my tasks,manage_todo
+show me my smart home status please,control_home
+please book an appointment with my dentist,book_appointment
+can you how many active minutes today,track_fitness
+i'd like to need to be reminded about an appointment,set_reminder
+find me the earliest available doctor right now,book_appointment
+i need to book a hotel please,book_hotel
+i take ramipril daily remind me please right now,medication_reminder
+please set up medication reminders for me,medication_reminder
+how early should i apply for a visa right now,travel_documents
+break down this task into steps please,manage_todo
+what bills do i have coming up right now,check_bill_due
+what is my resting heart rate right now,track_fitness
+i need to know my balance please,check_balance
+please i need to make a medical appointment,book_appointment
+am i in the office tomorrow right now,work_schedule
+show my current account funds right now,check_balance
+cancel the paris hotel right now,cancel_booking
+i'd like to need to eat more vegetables suggest something,dietary_advice
+i want to know your capabilities,capabilities
+i would like to dispute a transaction,report_fraud
+add a meeting to my calendar please,schedule_meeting
+i need to schedule a one to one right now,schedule_meeting
+tell me the transfer limit,make_transfer
+how do i'd like to contact my insurance provider,insurance_query
+do i have private health insurance,insurance_query
+please suggest hotels that match my budget,book_hotel
+what does my balance look like right now,check_balance
+please i forgot to take my tablets,medication_reminder
+what project am i working on please,task_management
+how long since my last oil change,car_maintenance
+set up a call with my manager please,schedule_meeting
+can you turn off notifications,update_preferences
+i need sick leave for today,submit_leave
+can you change my name in the system,update_preferences
+what do you support right now,capabilities
+when is my next doctors appointment,book_appointment
+what is on my task list today right now,manage_todo
+can you add an alarm for 8am,set_alarm
+i want to pay back a friend,make_transfer
+show me my account balance please,check_balance
+can you what bills do i have coming up,check_bill_due
+please i need to know if my credit is good,check_credit_score
+i'd like to need to make a medical appointment,book_appointment
+i'd like to want to order gluten free food,order_food
+how long until my order arrives,order_food
+what is the cheapest delivery right now,order_food
+turn off all the lights right now,control_home
+please show me upcoming bills,check_bill_due
+book accommodation for my trip,book_hotel
+how do i'd like to report card fraud,report_fraud
+can i see what is on my credit report right now,check_credit_score
+what recurring payments do i have,check_bill_due
+i require to see a specialist,book_appointment
+set the thermostat to 21 degrees please,control_home
+escalate this issue in the project right now,task_management
+book annual leave for next week right now,submit_leave
+i need to see my payment schedule right now,check_bill_due
+change my name in the system,update_preferences
+can you code for me please,out_of_scope
+i would like to travel to spain next month,book_flight
+i need to book a hotel right now,book_hotel
+can you tell me about my upcoming flight,check_flight_status
+is my dental covered by insurance,insurance_query
+show me upcoming bills please,check_bill_due
+i need to clear my task backlog please,manage_todo
+what is the cheapest delivery right now right now,order_food
+check if i am free next tuesday,check_schedule
+update my profile right now,update_preferences
+what is covered under my vhi plan please,insurance_query
+i would like to fly this weekend,book_flight
+i need to review the project timeline right now,task_management
+please schedule my annual health checkup,book_appointment
+create an alarm for an important task right now,set_reminder
+check if my paris flight is on schedule,check_flight_status
+please remind me with an alarm in 2 hours,set_alarm
+please is the thermostat set correctly,control_home
+what time do i start work tomorrow,work_schedule
+please find recipes that match my diet,dietary_advice
+never let me forget my daily pills,medication_reminder
+there is a transaction i'd like to did not make,report_fraud
+i require to clear my task backlog,manage_todo
+can you show me my activity for the week,track_fitness
+i want to play a trivia game right now,out_of_scope
+order food for delivery please,order_food
+withdraw my booking,cancel_booking
+can you check my balance right now,check_balance
+tell me the cheapest delivery right now,order_food
+what hospital am i covered in please,insurance_query
+please when does my electricity bill get charged,check_bill_due
+please how early should i apply for a visa,travel_documents
+alert me before my deadline,set_reminder
+can you what time do i start work tomorrow,work_schedule
+i need to track my medication schedule please,medication_reminder
+show me my flight booking right now,check_flight_status
+what do you support please,capabilities
+how many miles since my last service,car_maintenance
+undo my hotel reservation right now,cancel_booking
+tell me my current credit rating,check_credit_score
+move my 2pm meeting to 4pm,schedule_meeting
+can you i need to change my travel plans,cancel_booking
+give me a traffic report for my area please,commute_traffic
+i want to stay in a 4 star hotel please,book_hotel
+please send money to another account,make_transfer
+i require a gluten free recipe,dietary_advice
+book my car for a tyre change right now,car_maintenance
+change my communication preference,update_preferences
+can you do i have private health insurance,insurance_query
+good evening please,greeting
+alarm at 6am every weekday please,set_alarm
+please how can i improve my credit score,check_credit_score
+can you find a restaurant open right now,restaurant_suggest
+what tasks can i give you,capabilities
+is outpatient treatment covered please,insurance_query
+please i want a gradual wake alarm,set_alarm
+what is my insurance excess,insurance_query
+can you what do i have on today,check_schedule
+how do i'd like to book a desk at the office,work_schedule
+can you how early should i apply for a visa,travel_documents
+solve this math problem for me please,out_of_scope
+can you turn on the kitchen lights,control_home
+tell me my creditworthiness,check_credit_score
+can you do i need an esta to visit america,travel_documents
+can you confirm my flight for tomorrow,check_flight_status
+report a suspicious transaction,report_fraud
+can i book a last minute flight please,book_flight
+are there any delays on my commute,commute_traffic
+am i covered for this procedure right now,insurance_query
+can you give me a recipe for chocolate cake,out_of_scope
+turn off all the lights,control_home
+do i'd like to have a busy day tomorrow,check_schedule
+i need a daily reminder for my prescription,medication_reminder
+please hi how are you,greeting
+please what healthy snacks can i eat,dietary_advice
+can you remind me about something,set_reminder
+show me my insurance details right now,insurance_query
+can you i need a notification for my event,set_reminder
+find the cheapest flight to rome please,book_flight
+find fast food delivery near me right now,order_food
+can you show me my schedule for the week,check_schedule
+can you how much time off do i have,check_pto
+can you suggest a vegetarian meal,dietary_advice
+can you what healthy snacks can i eat,dietary_advice
+book a table for two tonight,restaurant_suggest
+how many days off do i have left right now,check_pto
+can you send a progress update for my project,task_management
+i need to know if my credit is good please,check_credit_score
+i need windscreen repair please,car_maintenance
+do i need to print my boarding pass right now,travel_documents
+can you review my upcoming schedule please,check_schedule
+i never made this transaction right now,report_fraud
+change my alarm tone,update_preferences
+book holiday dates please,submit_leave
+please i need a reminder for tomorrow,set_reminder
+set up a transfer for me please,make_transfer
+what is my deadline for this project right now,task_management
+can you add a high priority item to my list,manage_todo
+i need to change my travel plans,cancel_booking
+can you write me a story,out_of_scope
+remind me at 8am tomorrow right now,set_reminder
+i'd like to need a notification for my event,set_reminder
+can you help me transfer money,make_transfer
+please is there an accident on my route,commute_traffic
+please add a quarterly review to my calendar,schedule_meeting
+can i cancel without a penalty please,cancel_booking
+show me work events this week please,work_schedule
+create a new task for me right now,manage_todo
+i want to take time off,submit_leave
+can you do i have a busy day tomorrow,check_schedule
+please can you pull up my balance,check_balance
+can you pull up my balance please,check_balance
+please have i missed any medication today,medication_reminder
+hey please,greeting
+i'd like to want to be notified about something,set_reminder
+remind me about something please,set_reminder
+can you this charge looks fraudulent,report_fraud
+tell me about visa requirements,travel_documents
+please can you track my health,capabilities
+what is due at the end of the month,check_bill_due
+what bills do i have coming up please,check_bill_due
+organise a planning session for the team,schedule_meeting
+can you show me my insurance details,insurance_query
+what is my account balance right now,check_balance
+book an appointment at the dental clinic please,book_appointment
+i want to transfer money please,make_transfer
+i need to send a payment please,make_transfer
+can you is friday a remote day,work_schedule
+tell me a joke right now,out_of_scope
+find a garage near me please,car_maintenance
+please show me my work calendar,work_schedule
+can you check my balance please,check_balance
+remind me with an alarm in 2 hours,set_alarm
+what is the capital of mongolia please,out_of_scope
+can you what is a good spot for a date night,restaurant_suggest
+cancel my hotel reservation,cancel_booking
+what tasks are assigned to me,task_management
+can you what is happening tomorrow,check_schedule
+do i'd like to have a late finish today,work_schedule
+find me an easy vegetarian recipe please,dietary_advice
+i want to try something new to eat please,restaurant_suggest
+how much money is available to me,check_balance
+is my insurance policy up to date,insurance_query
+what documents do i require to travel,travel_documents
+can you someone has stolen my card details,report_fraud
+i'd like to need windscreen repair,car_maintenance
+can you renew my insurance policy,insurance_query
+what events do i have coming up,check_schedule
+help me prepare my travel paperwork please,travel_documents
+will i be late if i leave now right now,commute_traffic
+can you search for hotels near the city centre,book_hotel
+show me all your features please,capabilities
+i have to cancel my plans can you help please,cancel_booking
+can you how much money is available to me,check_balance
+please are you able to book flights,capabilities
+can you remind me later,set_reminder
+can i see what is on my credit report,check_credit_score
+please how long is the drive in today,commute_traffic
+i no longer want sms notifications please,update_preferences
+please can i get a referral letter for my insurer,insurance_query
+please remind me at 8am tomorrow,set_reminder
+can you show my pto summary,check_pto
+please apply for annual leave,submit_leave
+i want to reset my settings,update_preferences
+please set my morning alarm,set_alarm
+add submit my report to my to do list right now,manage_todo
+alarm at 6am every weekday,set_alarm
+what is my leave entitlement right now,check_pto
+can you turn off the living room lights,control_home
+set the lights to movie mode please,control_home
+recommend a family friendly restaurant right now,restaurant_suggest
+please hello can you help me today,greeting
+please find hotels near my meeting venue,book_hotel
+what is the status of my flight right now,check_flight_status
+what are my working hours,work_schedule
+please how long until my order arrives,order_food
+tell me about ancient history right now,out_of_scope
+set the lights to movie mode right now,control_home
+please hey i have a question,greeting
+please add extra items to my order,order_food
+can you is there traffic on my commute,commute_traffic
+i want to change my language setting please,update_preferences
+what tasks are overdue right now,manage_todo
+please good morning,greeting
+can you how much money do i have,check_balance
+lower the heating,control_home
+please explain my credit score to me,check_credit_score
+can you set an alarm for 7am,set_alarm
+has my flight been cancelled please,check_flight_status
+who won the football last night please,out_of_scope
+what factors affect my credit score right now,check_credit_score
+can you lower the heating,control_home
+can you when do i take my blood pressure pills,medication_reminder
+how much is left in my account please,check_balance
+i require to cancel my flight,cancel_booking
+can you i want to be notified about something,set_reminder
+is there construction affecting my route please,commute_traffic
+how often should i take this medication please,medication_reminder
+what time does the office open please,work_schedule
+request time off for my trip please,submit_leave
+do you handle banking queries right now,capabilities
+what tasks did my team complete this week please,task_management
+book an appointment at the dental clinic,book_appointment
+can i get a refund if i cancel,cancel_booking
+how do i contact my insurance provider right now,insurance_query
+i'd like to did not make this purchase,report_fraud
+please morning,greeting
+suggest somewhere italian near me,restaurant_suggest
+can you set a recurring reminder for my medication,medication_reminder
+can you undo my hotel reservation,cancel_booking
+please i need to visit the hospital,book_appointment
+book flights for two people to lisbon right now,book_flight
+display my flight booking,check_flight_status
+my card has been used fraudulently right now,report_fraud
+undo my hotel reservation,cancel_booking
+someone used my card without permission please,report_fraud
+can you book me on the earliest flight tomorrow,book_flight
+please what can i eat for dinner tonight,dietary_advice
+do i have any meetings today right now,check_schedule
+i want to dispute a transaction right now,report_fraud
+how many sick days have i used please,check_pto
+please wake me up early for my flight,set_alarm
+please remind me about something,set_reminder
+i require to track my medication schedule,medication_reminder
+can you show my home security camera,control_home
+please i want to dispute a transaction,report_fraud
+please confirm my flight for tomorrow,check_flight_status
+can you i want a low calorie dinner idea,dietary_advice
+i require to eat more vegetables suggest something,dietary_advice
+can you what tasks do i have to complete,manage_todo
+when is everyone free for a meeting,schedule_meeting
+schedule a car wash right now,car_maintenance
+please add a recurring reminder,set_reminder
+i want to try something new to eat,restaurant_suggest
+i would like to personalise my assistant,update_preferences
+book time with my manager for a review please,schedule_meeting
+please delete a completed task,manage_todo
+find a time for a team meeting right now,schedule_meeting
+can i claim for physiotherapy,insurance_query
+what are the best restaurants nearby,restaurant_suggest
+can you how much is in my account,check_balance
+what healthy snacks can i eat,dietary_advice
+what movies are showing tonight please,out_of_scope
+has the airline changed my flight,check_flight_status
+please block out time for a presentation,schedule_meeting
+please when is my subscription payment,check_bill_due
+please how much is left in my account,check_balance
+can you suggest somewhere italian near me,restaurant_suggest
+i need to dispute an unauthorised payment right now,report_fraud
+set an alert for my meeting right now,set_reminder
+am i rostered in this weekend please,work_schedule
+i want to transfer money right now,make_transfer
+please cancel my food order,order_food
+display my work tasks,task_management
+i need to see a doctor,book_appointment
+please what flights are available to amsterdam,book_flight
+when did i'd like to last change my oil,car_maintenance
+i'd like to see a charge i'd like to dont recognise,report_fraud
+schedule a meeting for tomorrow please,schedule_meeting
+remind me about something right now,set_reminder
+where is my office located,work_schedule
+show my current account funds please,check_balance
+can you how much pto rolls over next year,check_pto
+how to raise my credit score,check_credit_score
+transfer 500 euros to my savings,make_transfer
+please create a new task for me,manage_todo
+can you are there any bills i might miss,check_bill_due
+please what will the stock market do tomorrow,out_of_scope
+show my pto summary please,check_pto
+i keep forgetting things set a reminder right now,set_reminder
+can you am i close to my step goal,track_fitness
+i'd like to want to change my language setting,update_preferences
+please i want to know your capabilities,capabilities
+can you show me upcoming bills,check_bill_due
+i'd like to need to visit the hospital,book_appointment
+can you how do i contact my insurance provider,insurance_query
+do i have enough days for a 5 day break,check_pto
+please find a doctor available this week,book_appointment
+hey i have a question right now,greeting
+can you how did i sleep last night,track_fitness
+when do i finish work this week right now,work_schedule
+please what meetings do i have this week,check_schedule
+can you remind me in an hour,set_reminder
+can you did i take my morning medication,medication_reminder
+can you what is my step count,track_fitness
+i need a flight ticket please,book_flight
+set my morning alarm,set_alarm
+apply for emergency leave right now,submit_leave
+show me the office schedule,work_schedule
+please i want to pay back a friend,make_transfer
+cancel everything for my paris trip,cancel_booking
+please turn on the kitchen lights,control_home
+please i want indian takeaway,order_food
+i require a flight ticket,book_flight
+can you find me a free appointment slot,book_appointment
+i'd like to need to see someone about my back pain,book_appointment
+set an alarm for 7am please,set_alarm
+how active have i been this week right now,track_fitness
+i would like to know my credit score,check_credit_score
+what kind of assistant are you,capabilities
+list everything on my calendar right now,check_schedule
+please activate the security alarm,control_home
+i want to stay in a 4 star hotel right now,book_hotel
+how much is my insurance premium please,insurance_query
+can you what is the speed of light,out_of_scope
+tell me my average sleep,track_fitness
+can you good evening,greeting
+are there any delays on my commute right now,commute_traffic
+can you find me a flight to london,book_flight
+can you i need to travel urgently book a flight,book_flight
+recommend a good place for lunch please,restaurant_suggest
+tell me my creditworthiness please,check_credit_score
+please what kind of assistant are you,capabilities
+please check road conditions for my journey,commute_traffic
+good morning please,greeting
+what bills are due next week please,check_bill_due
+i would like to order gluten free food,order_food
+i require sick leave for today,submit_leave
+log my work hours right now,task_management
+i would like to try something new for dinner,dietary_advice
+can you what are some gluten free snacks,dietary_advice
+do i have a busy day tomorrow right now,check_schedule
+renew my insurance policy right now,insurance_query
+can you i need to organise my tasks,manage_todo
+tell me my flight number,check_flight_status
+please how many steps have i taken today,track_fitness
+i would like to pay back a friend,make_transfer
+write me a story,out_of_scope
+find an alternative route to avoid traffic please,commute_traffic
+create a new task for me,manage_todo
+please order chinese food for tonight,order_food
+can you add a meeting to my calendar,schedule_meeting
+can you arrange a consultation for me,book_appointment
+can you what is my savings account balance,check_balance
+can you add submit my report to my to do list,manage_todo
+i want to go out for dinner right now,restaurant_suggest
+i need to see a specialist right now,book_appointment
+can you change my home address,update_preferences
+how long is the drive in today please,commute_traffic
+update the status of my report right now,task_management
+is there an accident on my route,commute_traffic
+how much annual leave do i'd like to have,check_pto
+i need to know if my credit is good,check_credit_score
+please i need pet friendly accommodation,book_hotel
+i need a reminder for tomorrow,set_reminder
+how much is in my account please,check_balance
+please cancel everything for my paris trip,cancel_booking
+please help me move money to savings,make_transfer
+have i been hitting my daily goals please,track_fitness
+when is my car service due please,car_maintenance
+can you when is my rent due,check_bill_due
+can you i need sick leave for today,submit_leave
+can you i want to get takeaway,order_food
+can you find recipes that match my diet,dietary_advice
+can you i think my account has been hacked,report_fraud
+am i working from home today please,work_schedule
+can you are there any delays on my commute,commute_traffic
+undo my hotel reservation please,cancel_booking
+can i cancel without a penalty,cancel_booking
+what is a good spot for a date night right now,restaurant_suggest
+i want to change my language setting right now,update_preferences
+can you what is my resting heart rate,track_fitness
+display my pending tasks,manage_todo
+please this charge looks fraudulent,report_fraud
+i would like to take a day off on monday,submit_leave
+i'd like to need to see my payment schedule,check_bill_due
+cancel my food order right now,order_food
+good day,greeting
+please what is on my calendar,check_schedule
+can you i need to book a mot,car_maintenance
+what are the best hotels for my trip,book_hotel
+what is hurting my credit score please,check_credit_score
+can you show upcoming events on my calendar,check_schedule
+please write me a story,out_of_scope
+do i have anything scheduled for this afternoon,check_schedule
+add a high priority item to my list please,manage_todo
+i have a meeting to arrange right now,schedule_meeting
+translate this sentence to japanese right now,out_of_scope
+find me a hotel in paris please,book_hotel
+please show me my annual leave status,check_pto
+turn off all the lights please,control_home
+please update my account information,update_preferences
+i'd like to want indian takeaway,order_food
+can you turn on the outdoor lights,control_home
+help me find a flight right now,book_flight
+turn off notifications,update_preferences
+please how do i report card fraud,report_fraud
+how do i contact my insurance provider,insurance_query
+create a new task for me please,manage_todo
+please check my energy usage today,control_home
+can you who won the football last night,out_of_scope
+please block my card immediately suspicious activity,report_fraud
+book time with my manager for a review right now,schedule_meeting
+what can i cook without gluten right now,dietary_advice
+do i have any holidays left,check_pto
+cancel the restaurant reservation right now,cancel_booking
+can you set the heating to come on at 6pm,control_home
+can you what is the most urgent task,manage_todo
+please book a return flight to new york,book_flight
+morning right now,greeting
+check the departure time of my flight,check_flight_status
+i finished the presentation mark it done please,task_management
+am i close to my step goal please,track_fitness
+are there any travel restrictions right now right now,travel_documents
+show me my account balance,check_balance
+find me a free appointment slot please,book_appointment
+can you how long will it take to get to work,commute_traffic
+what is the most urgent task please,manage_todo
+can you remind me of my outstanding tasks,manage_todo
+how can i improve my credit score right now,check_credit_score
+update my account information right now,update_preferences
+i want to book a flight please,book_flight
+my check engine light came on please,car_maintenance
+can you process a transfer for me please,make_transfer
+please good afternoon,greeting
+can you i want to order gluten free food,order_food
+please what gate is my flight at,check_flight_status
+please what temperature is the house,control_home
+will i have enough pto for my trip please,check_pto
+what are my flight details right now,check_flight_status
+what gate is my flight at right now,check_flight_status
+hi'd like to how are you,greeting
+can you what do you support,capabilities
+what recurring payments do i have please,check_bill_due
+hey i have a question please,greeting
+greetings right now,greeting
+create an alarm for an important task,set_reminder
+set a reminder for my tablets please,medication_reminder
+start a cooking timer right now,set_alarm
+i want to see my leave history right now,check_pto
+show me my schedule for the week,check_schedule
+how many active minutes today,track_fitness
+what is the dress code for this meeting right now,work_schedule
+please how do i cancel my trip,cancel_booking
+how do i'd like to transfer funds,make_transfer
+when is my rent due,check_bill_due
+i'd like to want to book a flight,book_flight
+give me a traffic report for my area right now,commute_traffic
+how much money do i'd like to have,check_balance
+how can you help me please,capabilities
+hello assistant please,greeting
+show me my annual leave status right now,check_pto
+suggest a place that fits my diet,restaurant_suggest
+confirm my flight for tomorrow right now,check_flight_status
+what tasks do i have to complete,manage_todo
+how active have i been this week please,track_fitness
+find direct flights to dubai please,book_flight
+can you translate this sentence to japanese,out_of_scope
+please move this to completed,manage_todo
+please tell me about ancient history,out_of_scope
+can you what are the entry requirements for the usa,travel_documents
+i need to track my medication schedule,medication_reminder
+can you compare my steps to last week,track_fitness
+start a cooking timer please,set_alarm
+is there a delay on my flight right now,check_flight_status
+can you book a flight for next week,book_flight
+hello assistant right now,greeting
+what is my credit score please,check_credit_score
+book hotel accommodation for the conference please,book_hotel
+give me a recipe for chocolate cake,out_of_scope
+change my communication preference please,update_preferences
+i'd like to need to review the project timeline,task_management
+i'd like to want to personalise my assistant,update_preferences
+when does my next flight leave please,check_flight_status
+book my car for a tyre change,car_maintenance
+how many days off do i have left please,check_pto
+please what are the customs rules when arriving,travel_documents
+is the ryanair flight delayed today please,check_flight_status
+what is my flight number please,check_flight_status
+i'd like to want to cancel my travel booking,cancel_booking
+is my passport valid for this trip,travel_documents
+can you will i be late if i leave now,commute_traffic
+is friday a remote day,work_schedule
+i'd like to want to fly this weekend,book_flight
+can you are you able to book flights,capabilities
+can you schedule a catch up with sarah,schedule_meeting
+what can i'd like to ask you,capabilities
+i want to fly this weekend,book_flight
+can you is my insurance policy up to date,insurance_query
+can you what can i ask you,capabilities
+what events do i have coming up please,check_schedule
+block my card immediately suspicious activity right now,report_fraud
+what can i get delivered near me right now,order_food
+set a reminder for my tablets,medication_reminder
+help me transfer money right now,make_transfer
+can you is my balance enough for a purchase,check_balance
+morning,greeting
+can you what is the cheapest delivery right now,order_food
+predict the lottery numbers,out_of_scope
+can you look up my account balance,check_balance
+what factors affect my credit score please,check_credit_score
+book a flight for next week please,book_flight
+please tell me my creditworthiness,check_credit_score
+can you remind me to take my medication,medication_reminder
+can you what factors affect my credit score,check_credit_score
+hi there right now,greeting
+break down this task into steps right now,manage_todo
+please i want to try something new for dinner,dietary_advice
+show my fitness trends this month,track_fitness
+how did i sleep last night,track_fitness
+book a long weekend off,submit_leave
+can you show me my commitments this week,check_schedule
+what hospital am i'd like to covered in,insurance_query
+please i want to try something new to eat,restaurant_suggest
+do i'd like to need an esta to visit america,travel_documents
+what is happening tomorrow right now,check_schedule
+can you manage my calendar please,capabilities
+can you book me into a hotel please,book_hotel
+when does my electricity bill get charged right now,check_bill_due
+please greetings,greeting
+wake me up at 6 30 please,set_alarm
+please search for available flights,book_flight
+why did my credit score drop please,check_credit_score
+can you what is my deadline for this project,task_management
+please look up my account balance,check_balance
+request time off for my trip,submit_leave
+hi i want to ask something please,greeting
+can you send money to another account,make_transfer
+how much do i owe for bills this month,check_bill_due
+how much money is available to me please,check_balance
+can you set up a video call for the project,schedule_meeting
+how is my credit rating please,check_credit_score
+do i need a visa for france right now,travel_documents
+are there any bills i'd like to might miss,check_bill_due
+am i'd like to working from home today,work_schedule
+i need a 25 minute timer please,set_alarm
+i'd like to prefer formal language please,update_preferences
+what medication do i'd like to take in the morning,medication_reminder
+can i claim for physiotherapy right now,insurance_query
+can you what are your features,capabilities
+book a return flight to new york,book_flight
+what is blocking my current task,task_management
+i want to personalise my assistant,update_preferences
+can you never let me forget my daily pills,medication_reminder
+remind me about my evening dose please,medication_reminder
+what is my available balance right now,check_balance
+please i want to take the week before christmas off,submit_leave
+can i see my credit report right now,check_credit_score
+please hi what can you do,greeting
+can you what documents do i need to travel,travel_documents
+please hi there what can you do,greeting
+how do i report card fraud,report_fraud
+please get me a pizza delivered,order_food
+check my leave balance please,check_pto
+remind me about something,set_reminder
+can you what is my average sleep,track_fitness
+compose an email to my colleague,out_of_scope
+book me on the earliest flight tomorrow please,book_flight
+schedule my annual health checkup,book_appointment
+change my alarm tone right now,update_preferences
+remind me in an hour right now,set_reminder
+what factors affect my credit score,check_credit_score
+check my bank balance,check_balance
+please show my workout summary,track_fitness
+request pto for my holiday please,submit_leave
+help me move money to savings right now,make_transfer
+tell me my balance please,check_balance
+cancel my flight booking reference right now,cancel_booking
+find me the earliest available doctor please,book_appointment
+can you i want to personalise my assistant,update_preferences
+my identity may have been stolen,report_fraud
+find hotels with gym facilities,book_hotel
+my car needs a service soon please,car_maintenance
+what meetings do i have this week please,check_schedule
+what restaurants can i'd like to book for this weekend,restaurant_suggest
+can you what is my insurance plan name,insurance_query
+can you have i missed any medication today,medication_reminder
+hello assistant,greeting
+what is blocking my current task right now,task_management
+remind me in an hour,set_reminder
+can you hello jarvis are you there,greeting
+can you hey good morning,greeting
+can you what fees apply to transfers,make_transfer
+arrange a consultation for me right now,book_appointment
+please set a recurring reminder for my medication,medication_reminder
+please can i move money between accounts,make_transfer
+i'd like to need to arrange a meeting with my team,schedule_meeting
+please what bills do i have coming up,check_bill_due
+please i want to see a physiotherapist,book_appointment
+i would like to see my leave history,check_pto
+i would like to change my language setting,update_preferences
+what is my agenda for today,check_schedule
+can you give me an update on my flight,check_flight_status
+please show me my schedule for the week,check_schedule
+find fast food delivery near me,order_food
+how much time off do i'd like to have,check_pto
+please check my leave balance,check_pto
+please freeze my card there is fraud,report_fraud
+can you lock the front door,control_home
+cancel everything for my paris trip right now,cancel_booking
+how long is my visa valid for,travel_documents
+my car needs a service soon,car_maintenance
+submit a pto request for july,submit_leave
+please remind me at 8am to take my pills,medication_reminder
+what do i have on today right now,check_schedule
+please find direct flights to dubai,book_flight
+please how much do i owe for bills this month,check_bill_due
+book a flight for next week right now,book_flight
+what can you do right now,capabilities
+who is my manager please,work_schedule
+can you tell me about health requirements for travel,travel_documents
+please change my home address,update_preferences
+good day please,greeting
+when does my flight depart,check_flight_status
+show me my pending tasks please,manage_todo
+track my food delivery right now,order_food
+help me prepare my travel paperwork,travel_documents
+what is blocking my current task please,task_management
+order food for delivery,order_food
+can you show me my smart home status,control_home
+what tasks did my team complete this week,task_management
+never let me forget my daily pills please,medication_reminder
+please set a reminder for next monday,set_reminder
+is the thermostat set correctly right now,control_home
+please check if i am free next tuesday,check_schedule
+i require to fly to paris,book_flight
+what is covered under my vhi plan,insurance_query
+show upcoming events on my calendar please,check_schedule
+can you check my holiday allowance,check_pto
+add submit my report to my to do list please,manage_todo
+can you recommend a good place for lunch,restaurant_suggest
+i want to take time off right now,submit_leave
+please i need windscreen repair,car_maintenance
+remind me to take my medication,medication_reminder
+what healthy snacks can i'd like to eat,dietary_advice
+alarm at 6am every weekday right now,set_alarm
+remind me to take my medication right now,medication_reminder
+show me my credit history,check_credit_score
+remind me of my outstanding tasks,manage_todo
+i need a gluten free recipe,dietary_advice
+can you hi what can you do,greeting
+please what hospital am i covered in,insurance_query
+set multiple alarms for the morning please,set_alarm
+can you what are the best restaurants nearby,restaurant_suggest
+order something vegetarian for dinner right now,order_food
+how much pto rolls over next year,check_pto
+assign this task to my teammate right now,task_management
+i require windscreen repair,car_maintenance
+show upcoming events on my calendar,check_schedule
+my car battery might be low right now,car_maintenance
+please i need to send a payment,make_transfer
+tell me my available balance,check_balance
+can you what are my flight details,check_flight_status
+please find the best rated hotels in rome,book_hotel
+what is my leave entitlement please,check_pto
+can you i need to know my flight departure time,check_flight_status
+can you book me into a hotel right now,book_hotel
+set a heating schedule please,control_home
+i want push notifications instead,update_preferences
+request parental leave right now,submit_leave
+can you tell me a joke,out_of_scope
+suggest a plant based dinner right now,dietary_advice
+can you what is the fastest way to the office,commute_traffic
+apply for emergency leave please,submit_leave
+can you hello,greeting
+what is the capital of mongolia right now,out_of_scope
+find a doctor available this week right now,book_appointment
+please search for business class flights,book_flight
+please i need to send money abroad,make_transfer
+plan my meals for the week,dietary_advice
+i need to cancel my flight please,cancel_booking
+turn off all devices please,control_home
+are there any travel restrictions right now please,travel_documents
+please how do i do a bank transfer,make_transfer
+please set the thermostat to 21 degrees,control_home
+can we set up a zoom call right now,schedule_meeting
+good evening right now,greeting
+book time with my manager for a review,schedule_meeting
+hello can you help me today,greeting
+how long until my order arrives right now,order_food
+will i be late if i leave now please,commute_traffic
+how long is the drive in today right now,commute_traffic
+lower the heating right now,control_home
+what restaurants can i book for this weekend,restaurant_suggest
+please what restaurants can i book for this weekend,restaurant_suggest
+i want to go out for dinner,restaurant_suggest
+can you how do i make an insurance claim,insurance_query
+i'd like to need a gluten free recipe,dietary_advice
+organise a planning session for the team right now,schedule_meeting
+can you show my heart rate data,track_fitness
+can you help me move money to savings,make_transfer
+give me a fitness progress update please,track_fitness
+please tell me about my upcoming financial obligations,check_bill_due
+find me somewhere to eat right now,restaurant_suggest
+do i'd like to need to print my boarding pass,travel_documents
+schedule a catch up with sarah,schedule_meeting
+what can i ask you please,capabilities
+please what factors affect my credit score,check_credit_score
+i need windscreen repair,car_maintenance
+tell me a good spot for a date night,restaurant_suggest
+i need to call off my trip,cancel_booking
+can you i want to take time off,submit_leave
+update the status of my report please,task_management
+i'd like to never made this transaction,report_fraud
+i need a notification for my event right now,set_reminder
+how busy is the motorway right now right now,commute_traffic
+is my passport expiring soon,travel_documents
+i need to travel urgently book a flight,book_flight
+hey jarvis right now,greeting
+please do i need to print my boarding pass,travel_documents
+change my alarm to 7 30 right now,set_alarm
+can you how do i book a desk at the office,work_schedule
+never let me forget my daily pills right now,medication_reminder
+please do i have any holidays left,check_pto
+update my preferences,update_preferences
+organise a planning session for the team please,schedule_meeting
+can you how do i add a family member to my insurance,insurance_query
+can you remind me to call someone,set_reminder
+tell me a joke please,out_of_scope
+did i take my morning medication,medication_reminder
+please check my credit file,check_credit_score
+do i need a visa for france,travel_documents
+am i free on friday right now,check_schedule
+i require to arrange a meeting with my team,schedule_meeting
+how do i make an insurance claim,insurance_query
+can you what is the full list of things you do,capabilities
+can you add a recurring task,manage_todo
+can you debug my python code,out_of_scope
+create an alarm for an important task please,set_reminder
+please check my bank balance,check_balance
+tell me my car registration,car_maintenance
+can you why did my credit score drop,check_credit_score
+can you what smart devices are connected,control_home
+my account has been compromised right now,report_fraud
+please book a flight for next week,book_flight
+i'd like to want to play a trivia game,out_of_scope
+please assign this task to my teammate,task_management
+snooze my alarm right now,set_alarm
+log my work hours please,task_management
+can you show my current account funds,check_balance
+turn off the living room lights right now,control_home
+suggest a restaurant for tonight right now,restaurant_suggest
+what id do i need at the airport,travel_documents
+what is the most urgent task right now,manage_todo
+can you how do i report card fraud,report_fraud
+please i need to book a mot,car_maintenance
+did i take my morning medication right now,medication_reminder
+please book a table for two tonight,restaurant_suggest
+when does my flight depart right now,check_flight_status
+find me a healthy recipe right now,dietary_advice
+can you update my account information,update_preferences
+can you i need to know if my credit is good,check_credit_score
+please debug my python code,out_of_scope
+can you list everything on my calendar,check_schedule
+can you order food for delivery,order_food
+i need ideas for a high protein breakfast please,dietary_advice
+order chinese food for tonight right now,order_food
+what are the limits on my health cover right now,insurance_query
+i want to get takeaway please,order_food
+freeze my card there is fraud,report_fraud
+cancel my alarm,set_alarm
+send a progress update for my project please,task_management
+can i'd like to cancel without a penalty,cancel_booking
+i'd like to need ideas for a high protein breakfast,dietary_advice
+please book flights for two people to lisbon,book_flight
+please hey jarvis,greeting
+update me on my morning commute right now,commute_traffic
+how did i sleep last night please,track_fitness
+tell me my leave entitlement,check_pto
+set an alarm before my appointment please,set_alarm
+can i take a week off please,check_pto
+how do i'd like to get my money back for a cancelled trip,cancel_booking
+can i see what is on my credit report please,check_credit_score
+can you set a daily reminder for me,set_reminder
+please log my work hours,task_management
+give me a recipe for chocolate cake please,out_of_scope
+when is my next payment due,check_bill_due
+remind me to call someone right now,set_reminder
+i need a notification for my event please,set_reminder
+when do i finish work this week,work_schedule
+how is my credit rating,check_credit_score
+can you how long does it take to improve credit,check_credit_score
+i need to know if my credit is good right now,check_credit_score
+i'd like to no longer need this booking,cancel_booking
+check if the door is locked,control_home
+hi'd like to what can you do,greeting
+i no longer need this booking please,cancel_booking
+what should i eat before a workout,dietary_advice
+what vaccinations do i need for travel,travel_documents
+can you has my flight been cancelled,check_flight_status
+find a time for a team meeting please,schedule_meeting
+apply for unpaid leave right now,submit_leave
+can i'd like to see what is on my credit report,check_credit_score
+do i require to print my boarding pass,travel_documents
+send money to another account please,make_transfer
+suggest meals for the week please,dietary_advice
+please book a dental appointment,book_appointment
+please someone used my card without permission,report_fraud
+i need to see a doctor please,book_appointment
+book hotel accommodation for the conference right now,book_hotel
+can you check my credit file,check_credit_score
+can you what services can you help with,capabilities
+what do i'd like to have on today,check_schedule
+change my home address,update_preferences
+please when do i take my blood pressure pills,medication_reminder
+tell me about visa requirements please,travel_documents
+can i see my credit report please,check_credit_score
+can you find me somewhere to eat,restaurant_suggest
+my account has been compromised please,report_fraud
+remind me at 8am tomorrow please,set_reminder
+can you what time does the office open,work_schedule
+can you play chess with me please,out_of_scope
+what are my options for flights to berlin,book_flight
+renew my insurance policy please,insurance_query
+have i missed any medication today please,medication_reminder
+show tasks due this week please,manage_todo
+activate the security alarm please,control_home
+how do i transfer to a different bank right now,make_transfer
+is there traffic on my commute right now,commute_traffic
+show my home security camera,control_home
+can you submit a leave request,submit_leave
+i would like to cancel my travel booking,cancel_booking
+who is my manager right now,work_schedule
+what time is my next event,check_schedule
+please do i have any meetings today,check_schedule
+please did i hit my fitness goal today,track_fitness
+please i am vegetarian what can i have for lunch,dietary_advice
+can you what is the transfer limit,make_transfer
+please check my holiday allowance,check_pto
+please book my car for a tyre change,car_maintenance
+please what are the entry requirements for the usa,travel_documents
+book me somewhere to stay in london please,book_hotel
+please cancel my upcoming booking,cancel_booking
+show me my work tasks please,task_management
+i'd like to want a gradual wake alarm,set_alarm
+can you how much annual leave do i have,check_pto
+am i free on friday please,check_schedule
+book an appointment with my dentist please,book_appointment
+can you i want to reset my settings,update_preferences
+please can i see what is on my credit report,check_credit_score
+hello right now,greeting
+my car battery might be low,car_maintenance
+can you find a time for a team meeting,schedule_meeting
+how long is the drive in today,commute_traffic
+can you is my dental covered by insurance,insurance_query
+what is my car registration right now,car_maintenance
+is the office closed next week right now,work_schedule
+show me my flight booking,check_flight_status
+what tasks are assigned to me please,task_management
+list everything on my calendar,check_schedule
+tell me about health requirements for travel right now,travel_documents
+can you what milestones are coming up,task_management
+there is a transaction i did not make,report_fraud
+please tell me about health requirements for travel,travel_documents
+what time is my next event please,check_schedule
+please has my flight been cancelled,check_flight_status
+what bills do i'd like to have coming up,check_bill_due
+is the ryanair flight delayed today right now,check_flight_status
+what is a good vegetarian protein source right now,dietary_advice
+please what is the transfer limit,make_transfer
+can you escalate this issue in the project,task_management
+please show my pto summary,check_pto
+can you am i free on friday,check_schedule
+hey good morning please,greeting
+can you tell me my balance please,check_balance
+can you i want indian takeaway,order_food
+can you is there construction affecting my route,commute_traffic
+can you tell me a fun fact about space,out_of_scope
+what is my current credit rating please,check_credit_score
+book accommodation for my trip please,book_hotel
+can you suggest hotels that match my budget,book_hotel
+please apply for unpaid leave,submit_leave
+i want to book a flight,book_flight
+please what are the limits on my health cover,insurance_query
+can you what tasks did my team complete this week,task_management
+please how do i transfer funds,make_transfer
+what movies are showing tonight,out_of_scope
+tell me my credit score,check_credit_score
+compare my steps to last week,track_fitness
+is the office closed next week please,work_schedule
+check if the door is locked please,control_home
+what restaurants are near me,restaurant_suggest
+can you what meetings do i have at work,work_schedule
+can you i need to clear my task backlog,manage_todo
+i require a daily reminder for my prescription,medication_reminder
+find the best rated hotels in rome,book_hotel
+remind me in an hour please,set_reminder
+can you check if this treatment is covered,insurance_query
+check the progress on my tasks please,task_management
+when did i last change my oil please,car_maintenance
+i need to send a payment right now,make_transfer
+when does my car tax expire please,car_maintenance
+turn off the living room lights please,control_home
+please show me my activity for the week,track_fitness
+good morning,greeting
+please book an appointment at the dental clinic,book_appointment
+hi what can you do right now,greeting
+arrange a consultation for me please,book_appointment
+i need to know my flight departure time right now,check_flight_status
+how do i book a desk at the office,work_schedule
+can you hey,greeting
+please can you code for me,out_of_scope
+what tasks are overdue please,manage_todo
+set up a call with my manager,schedule_meeting
+show my heart rate data right now,track_fitness
+can i'd like to schedule a future transfer,make_transfer
+how busy is the motorway right now please,commute_traffic
+please help me find a flight,book_flight
+can you book a doctor appointment,book_appointment
+can you change my notification settings,update_preferences
+list my upcoming payments right now,check_bill_due
+renew my insurance policy,insurance_query
+there is an unauthorised payment on my account,report_fraud
+i require a referral to a consultant,book_appointment
+can you solve this math problem for me,out_of_scope
+please is there construction affecting my route,commute_traffic
+what id do i need at the airport right now,travel_documents
+give me an update on my flight please,check_flight_status
+suggest somewhere italian near me please,restaurant_suggest
+show me my annual leave status,check_pto
+book holiday dates please right now,submit_leave
+i need to fly to paris,book_flight
+can you how can you help me,capabilities
+please get me a healthy meal delivered,order_food
+suggest hotels that match my budget,book_hotel
+add a high priority item to my list right now,manage_todo
+how much is left in my account,check_balance
+please remind me in an hour,set_reminder
+can you how active have i been this week,track_fitness
+can i'd like to see my credit report,check_credit_score
+check my bank balance please,check_balance
+please how much pto rolls over next year,check_pto
+can you switch to email notifications,update_preferences
+can you is my credit score good enough for a loan,check_credit_score
+am i rostered in this weekend,work_schedule
+create a reminder for 3pm right now,set_reminder
+can you play chess with me,out_of_scope
+can you update my profile,update_preferences
+can you show me my account balance,check_balance
+please tell me what you are capable of,capabilities
+please find an alternative route to avoid traffic,commute_traffic
+should i leave early today right now,commute_traffic
+please how long did i sleep,track_fitness
+i'd like to need to schedule a one to one,schedule_meeting
+please help me prepare my travel paperwork,travel_documents
+hey good morning,greeting
+can you i want to see my itinerary,check_flight_status
+please track whether i have taken my medicine today,medication_reminder
+i need to organise my tasks please,manage_todo
+please suggest meals for the week,dietary_advice
+hi there what can you do please,greeting
+please help me understand what you can do,capabilities
+please how do i get my money back for a cancelled trip,cancel_booking
+can you order chinese food for tonight,order_food
+can you what is my pto balance,check_pto
+how much money do i have,check_balance
+can you what vaccinations do i need for travel,travel_documents
+please do i need travel insurance,travel_documents
+there is a transaction i did not make please,report_fraud
+are there any travel restrictions right now,travel_documents
+what is a good vegetarian protein source please,dietary_advice
+book my car for its annual service right now,car_maintenance
+please i want to go out for dinner,restaurant_suggest
+can you book holiday dates please,submit_leave
+book flights for two people to lisbon please,book_flight
+display my annual leave status,check_pto
+what are my options for eating out tonight right now,restaurant_suggest
+can you what medication do i take in the morning,medication_reminder
+can you my account has been compromised,report_fraud
+can you make a gp appointment for tomorrow,book_appointment
+show me the office schedule please,work_schedule
+set the lights to movie mode,control_home
+i want to fly this weekend right now,book_flight
+i need an alarm for tomorrow morning,set_alarm
+please update my date of birth,update_preferences
+please suggest something i can cook with chicken,dietary_advice
+block out time for a presentation right now,schedule_meeting
+tell me about health requirements for travel,travel_documents
+please am i free on friday,check_schedule
+i'd like to need to get my brakes checked,car_maintenance
+please has my flight been delayed,check_flight_status
+i'd like to want to dispute a transaction,report_fraud
+please what are my working hours,work_schedule
+can you when does my car tax expire,car_maintenance
+please is my rent paid for this month,check_bill_due
+please place a food delivery order,order_food
+can you what is due at the end of the month,check_bill_due
+can you how many vacation days are remaining,check_pto
+please show upcoming events on my calendar,check_schedule
+please cancel my hotel reservation,cancel_booking
+please list everything on my calendar,check_schedule
+what meetings do i'd like to have this week,check_schedule
+what meetings do i'd like to have at work,work_schedule
+can you is the thermostat set correctly,control_home
+please how much annual leave do i have,check_pto
+can you show me my pending tasks,manage_todo
+i'd like to want to transfer money,make_transfer
+assign this task to my teammate,task_management
+schedule a meeting for tomorrow right now,schedule_meeting
+can you how many days off can i still take,check_pto
+tell me about my upcoming flight,check_flight_status
+please what vaccinations do i need for travel,travel_documents
+can you i need a referral to a consultant,book_appointment
+find an alternative route to avoid traffic,commute_traffic
+i require to see a doctor,book_appointment
+turn on the kitchen lights please,control_home
+turn on the kitchen lights,control_home
+tell me about my upcoming financial obligations right now,check_bill_due
+set a reminder for my tablets right now,medication_reminder
+predict the lottery numbers please,out_of_scope
+how do i report card fraud right now,report_fraud
+can you set the thermostat to 21 degrees,control_home
+hello i require help,greeting
+what is the speed of light please,out_of_scope
+when do i'd like to take my blood pressure pills,medication_reminder
+check road conditions for my journey please,commute_traffic
+can you what tasks are assigned to me,task_management
+can you i keep forgetting things set a reminder,set_reminder
+show me my activity for the week,track_fitness
+what is the baggage allowance for my flight right now,travel_documents
+please i need to review the project timeline,task_management
+show me my insurance details please,insurance_query
+check my upcoming payment dates please,check_bill_due
+what areas do you cover,capabilities
+recommend a good place for lunch,restaurant_suggest
+can you what alarms do i have set,set_alarm
+how many days can i book off still right now,check_pto
+are you able to book flights,capabilities
+update my date of birth please,update_preferences
+suggest a place that fits my diet right now,restaurant_suggest
+please how many active minutes today,track_fitness
+i'd like to need to know my flight departure time,check_flight_status
+please update me on my morning commute,commute_traffic
+has my flight been cancelled,check_flight_status
+do i have any holidays left right now,check_pto
+please i need to arrange a meeting with my team,schedule_meeting
+order from my favourite restaurant,order_food
+please is my schedule clear for monday,check_schedule
+what gate is my flight at please,check_flight_status
+can you i want to take a day off on monday,submit_leave
+process my leave request for next month please,submit_leave
+please show me my insurance details,insurance_query
+please good day,greeting
+remind me about my evening dose,medication_reminder
+can you how long is my visa valid for,travel_documents
+add a meeting to my calendar right now,schedule_meeting
+can you show me my work calendar,work_schedule
+i'd like to no longer want sms notifications,update_preferences
+can you create an alarm for an important task,set_reminder
+when is my next payment due please,check_bill_due
+can you what is my shift pattern,work_schedule
+can you check my energy usage today,control_home
+can you how many sick days have i used,check_pto
+can you search for hotels with free cancellation,book_hotel
+can you how do i get my money back for a cancelled trip,cancel_booking
+show upcoming events on my calendar right now,check_schedule
+add a reminder to my list please,set_reminder
+find me a flight to london,book_flight
+how busy is the motorway right now,commute_traffic
+update the status of my task right now,manage_todo
+show me my credit history please,check_credit_score
+alert me when it is time for my next dose right now,medication_reminder
+can you move this to completed,manage_todo
+how much time off do i have right now,check_pto
+can you morning,greeting
+can you process my leave request for next month,submit_leave
+what vaccinations do i'd like to need for travel,travel_documents
+can you when is my next payment due,check_bill_due
+book annual leave for next week,submit_leave
+add a meeting to my calendar,schedule_meeting
+please how is the project progressing,task_management
+has my flight been delayed,check_flight_status
+please search for hotels with free cancellation,book_hotel
+please there is an unauthorised payment on my account,report_fraud
+what is my average sleep please,track_fitness
+i want to take the week before christmas off right now,submit_leave
+how much pto rolls over next year please,check_pto
+reorder my usual please,order_food
+please i need a referral to a consultant,book_appointment
+set a daily reminder for me,set_reminder
+when is my subscription payment right now,check_bill_due
+suggest somewhere cheap and cheerful please,restaurant_suggest
+please do you handle banking queries,capabilities
+can you what will the stock market do tomorrow,out_of_scope
+delete a completed task right now,manage_todo
+i'd like to need to see a specialist,book_appointment
+please what does my balance look like,check_balance
+this charge looks fraudulent right now,report_fraud
+can you book flights for me please,book_flight
+turn off all devices,control_home
+check the progress on my tasks,task_management
+what healthy snacks can i eat please,dietary_advice
+can you schedule a car wash,car_maintenance
+tell me about ancient history please,out_of_scope
+who won the football last night,out_of_scope
+please flag a suspicious charge,report_fraud
+i want to change my hotel booking,book_hotel
+i need a daily reminder for my prescription right now,medication_reminder
+hi what can you do,greeting
+what is my agenda for today right now,check_schedule
+can you what are my options for eating out tonight,restaurant_suggest
+book flights for two people to lisbon,book_flight
+how many days off can i'd like to still take,check_pto
+can you add a new work task,task_management
+please am i covered for this procedure,insurance_query
+book a return flight to new york please,book_flight
+can i'd like to see my account balance,check_balance
+place an order from dominos,order_food
+i'd like to need to book a mot,car_maintenance
+set up a call with my manager right now,schedule_meeting
+can you my car battery might be low,car_maintenance
+am i'd like to close to my step goal,track_fitness
+show me my work calendar,work_schedule
+how many vacation days are remaining right now,check_pto
+i would like indian takeaway,order_food
+can you i need windscreen repair,car_maintenance
+please is the office closed next week,work_schedule
+please cancel the friday team meeting,schedule_meeting
+can you how can i improve my credit score,check_credit_score
+i'd like to need to book a hotel,book_hotel
+set a deadline reminder for my work task,task_management
+i forgot to take my tablets right now,medication_reminder
+how do i cancel my trip right now,cancel_booking
+please order something vegetarian for dinner,order_food
+tell me about my upcoming flight please,check_flight_status
+are you able to book flights please,capabilities
+can i get a referral letter for my insurer please,insurance_query
+can you my tyre pressure light is on,car_maintenance
+look up my account balance please,check_balance
+schedule a car wash,car_maintenance
+check traffic on my usual route please,commute_traffic
+what gate is my flight at,check_flight_status
+check my holiday allowance right now,check_pto
+how do i cancel my trip,cancel_booking
+update my dietary preference to vegan please,update_preferences
+can you i am vegetarian what can i have for lunch,dietary_advice
+i want to see a physiotherapist right now,book_appointment
+when does my electricity bill get charged,check_bill_due
+update the status of my report,task_management
+please i want to get takeaway,order_food
+what temperature is the house right now,control_home
+i need a weekend alarm,set_alarm
+suggest meals for the week right now,dietary_advice
+find me a healthy recipe,dietary_advice
+can you book me into a hotel,book_hotel
+find me a free appointment slot,book_appointment
+i'd like to need to take next friday off,submit_leave
+can you how long since my last oil change,car_maintenance
+please what can i get delivered near me,order_food
+can you when do i finish work this week,work_schedule
+please apply for emergency leave,submit_leave
+please switch to email notifications,update_preferences
+i want to know your capabilities right now,capabilities
+i'd like to want to see a physiotherapist,book_appointment
+what should i eat before a workout please,dietary_advice
+i need a reminder for tomorrow right now,set_reminder
+please alert me when it is time for my next dose,medication_reminder
+can you set an alarm before my appointment,set_alarm
+set the thermostat to 21 degrees right now,control_home
+what are my flight details,check_flight_status
+can you how do i do a bank transfer,make_transfer
+delete a completed task please,manage_todo
+when do i take my blood pressure pills right now,medication_reminder
+can you what is my account balance,check_balance
+please do i need a visa for france,travel_documents
+will i have enough pto for my trip right now,check_pto
+what is the best route to work please,commute_traffic
+can you i need to book 5 days off,submit_leave
+is my balance enough for a purchase right now,check_balance
+what id do i'd like to need at the airport,travel_documents
+is my credit score good enough for a loan please,check_credit_score
+display all your features,capabilities
+i require to send money abroad,make_transfer
+what flights are available to amsterdam right now,book_flight
+search for hotels with free cancellation right now,book_hotel
+please can i cancel without a penalty,cancel_booking
+i would like to take time off,submit_leave
+please what are my flight details,check_flight_status
+how much annual leave do i have please,check_pto
+place a food delivery order,order_food
+please give me a recipe for chocolate cake,out_of_scope
+show me all your features,capabilities
+can you what movies are showing tonight,out_of_scope
+am i'd like to free on friday,check_schedule
+what is covered under my vhi plan right now,insurance_query
+please review my upcoming schedule please,check_schedule
+i'd like to finished the report mark it done,manage_todo
+remove all alarms right now,set_alarm
+how many vacation days are remaining,check_pto
+check if my paris flight is on schedule right now,check_flight_status
+what is my remaining annual leave,check_pto
+can you get me a pizza delivered,order_food
+remind me of my outstanding tasks please,manage_todo
+i require to take next friday off,submit_leave
+i'd like to want to travel to spain next month,book_flight
+there is an unauthorised payment on my account right now,report_fraud
+show my workout summary,track_fitness
+add a quarterly review to my calendar,schedule_meeting
+please find a free slot for a meeting next week,schedule_meeting
+what can i cook without gluten,dietary_advice
+is my rent paid for this month please,check_bill_due
+how early should i apply for a visa,travel_documents
+can you suggest a place that fits my diet,restaurant_suggest
+tell me my step count,track_fitness
+i want to order gluten free food please,order_food
+arrange a consultation for me,book_appointment
+freeze my card there is fraud please,report_fraud
+please add a meeting to my calendar,schedule_meeting
+please what score do i need for a mortgage,check_credit_score
+set a weekly reminder please,set_reminder
+how many calories have i burned please,track_fitness
+check the departure time of my flight please,check_flight_status
+write me a story please,out_of_scope
+what is the full list of things you do please,capabilities
+can you what kind of assistant are you,capabilities
+is the thermostat set correctly,control_home
+please book my car for its annual service,car_maintenance
+what is my medication schedule,medication_reminder
+how much money do i have please,check_balance
+hi i would like to ask something,greeting
+please find a gluten free restaurant,restaurant_suggest
+what services can you help with right now,capabilities
+can i'd like to get a refund if i'd like to cancel,cancel_booking
+how much do i owe for bills this month please,check_bill_due
+can you report a scam charge on my account,report_fraud
+what is hurting my credit score right now,check_credit_score
+can you find a gluten free restaurant,restaurant_suggest
+how can you help me,capabilities
+can you check my leave balance,check_pto
+i want a low calorie dinner idea please,dietary_advice
+is there construction affecting my route right now,commute_traffic
+please tell me a joke,out_of_scope
+change my alarm to 7 30,set_alarm
+what travel documents should i bring please,travel_documents
+can i move money between accounts please,make_transfer
+can you check my balance,check_balance
+i'd like to need to see a doctor,book_appointment
+i'd like to need pet friendly accommodation,book_hotel
+give me a fitness progress update right now,track_fitness
+please renew my insurance policy,insurance_query
+can you what documents prove my identity at border control,travel_documents
+i'd like to need sick leave for today,submit_leave
+can you how many days can i book off still,check_pto
+find a vegetarian friendly restaurant please,restaurant_suggest
+send money to another account,make_transfer
+what are the delivery options near me please,order_food
+set up a transfer for me right now,make_transfer
+show me work events this week,work_schedule
+please what is my flight number,check_flight_status
+please when does my next flight leave,check_flight_status
+move this to completed please,manage_todo
+get me a healthy meal delivered,order_food
+am i meeting my fitness targets,track_fitness
+can you change my alarm tone,update_preferences
+what is my credit score right now,check_credit_score
+can you what are the limits on my health cover,insurance_query
+can you manage my work tasks,capabilities
+what are the limits on my health cover,insurance_query
+add a quarterly review to my calendar right now,schedule_meeting
+book a boutique hotel in the city right now,book_hotel
+i'd like to want to take time off,submit_leave
+i'd like to am vegetarian what can i'd like to have for lunch,dietary_advice
+what is the parking situation at the office,commute_traffic
+is my balance enough for a purchase,check_balance
+can you i need to know my balance,check_balance
+can i schedule a future transfer right now,make_transfer
+book a dental appointment right now,book_appointment
+track whether i have taken my medicine today,medication_reminder
+i need a gluten free recipe please,dietary_advice
+when do i finish work this week please,work_schedule
+update my account information,update_preferences
+create a medication alarm for me right now,medication_reminder
+i'd like to want to make a payment to someone,make_transfer
+what are my working hours right now,work_schedule
+i want a gradual wake alarm,set_alarm
+is there a delay on my flight,check_flight_status
+please predict the lottery numbers,out_of_scope
+can you what is covered under my vhi plan,insurance_query
+add a new work task right now,task_management
+please who won the football last night,out_of_scope
+add a quarterly review to my calendar please,schedule_meeting
+book accommodation for my trip right now,book_hotel
+can you suggest a plant based dinner,dietary_advice
+display my smart home status,control_home
+set my morning alarm please,set_alarm
+what is the best route to work right now,commute_traffic
+please has my credit score changed,check_credit_score
+i would like to transfer money,make_transfer
+please i have to cancel my plans can you help,cancel_booking
+can you i want to pay back a friend,make_transfer
+what travel documents should i'd like to bring,travel_documents
+when does my electricity bill get charged please,check_bill_due
+please i need to call off my trip,cancel_booking
+i'd like to want to see my leave history,check_pto
+can you i need to take next friday off,submit_leave
+suggest something i'd like to can cook with chicken,dietary_advice
+will i'd like to be late if i'd like to leave now,commute_traffic
+how many vacation days are remaining please,check_pto
+please suggest a vegetarian meal,dietary_advice
+set multiple alarms for the morning right now,set_alarm
+please compose an email to my colleague,out_of_scope
+please i want to fly this weekend,book_flight
+please compare my steps to last week,track_fitness
+process a transfer for me please right now,make_transfer
+how active have i'd like to been this week,track_fitness
+check the departure time of my flight right now,check_flight_status
+set a reminder for next monday right now,set_reminder
+i'd like to need to clear my task backlog,manage_todo
+i'd like to need to send money abroad,make_transfer
+request parental leave please,submit_leave
+please can you check my balance,check_balance
+do i have enough days for a 5 day break right now,check_pto
+i require to visit the hospital,book_appointment
+submit a leave request,submit_leave
+please remind me to call someone,set_reminder
+can you apply for emergency leave,submit_leave
+tell me blocking my current task,task_management
+schedule a gp visit for me right now,book_appointment
+please what is the capital of mongolia,out_of_scope
+i have to cancel my plans can you help right now,cancel_booking
+please i need to track my medication schedule,medication_reminder
+can you order something vegetarian for dinner,order_food
+can you tell me about my upcoming financial obligations,check_bill_due
+what work is due this week right now,task_management
+display my account balance,check_balance
+cancel my flight booking reference please,cancel_booking
+can you what does my balance look like,check_balance
+please cancel my upcoming booking right now,cancel_booking
+show me my flight booking please,check_flight_status
+can you i need to see someone about my back pain,book_appointment
+can you how many steps to hit my daily goal,track_fitness
+have i been hitting my daily goals right now,track_fitness
+can you put in a leave request for me,submit_leave
+can you what is blocking my current task,task_management
+has my credit score changed,check_credit_score
+cancel the friday team meeting,schedule_meeting
+cancel the paris hotel,cancel_booking
+can you tell me about ancient history,out_of_scope
+please book a boutique hotel in the city,book_hotel
+please i want to know my credit score,check_credit_score
+how long does it take to improve credit,check_credit_score
+set a daily reminder for me right now,set_reminder
+tell me my account balance,check_balance
+what medication do i take in the morning,medication_reminder
+please is my passport valid for this trip,travel_documents
+i require pet friendly accommodation,book_hotel
+i need to take next friday off,submit_leave
+show me my work calendar please,work_schedule
+what are your features please,capabilities
+please when is my next payment due,check_bill_due
+please i need a gluten free recipe,dietary_advice
+find a doctor available this week,book_appointment
+what are my working hours please,work_schedule
+where is my office located right now,work_schedule
+please i take ramipril daily remind me please,medication_reminder
+can you i need a flight ticket,book_flight
+show my pto summary right now,check_pto
+can you how long until my order arrives,order_food
+can you manage my work tasks right now,capabilities
+set a deadline reminder for my work task right now,task_management
+can i take a week off,check_pto
+can you remind me at 8am tomorrow,set_reminder
+please i need to cancel my flight,cancel_booking
+please how do i make an insurance claim,insurance_query
+what score do i need for a mortgage right now,check_credit_score
+what should i eat before a workout right now,dietary_advice
+i want to order gluten free food,order_food
+can you what direct debits are going out soon,check_bill_due
+show me my work tasks right now,task_management
+please hi i want to ask something,greeting
+recommend a family friendly restaurant please,restaurant_suggest
+please what id do i need at the airport,travel_documents
+can i get a refund if i cancel right now,cancel_booking
+please what is the most urgent task,manage_todo
+book my car for a tyre change please,car_maintenance
+what is my step count please,track_fitness
+book holiday dates please please,submit_leave
+do i need travel insurance right now,travel_documents
+please what time do i start work tomorrow,work_schedule
+what is the fastest way to the office right now,commute_traffic
+i no longer want sms notifications right now,update_preferences
+submit a pto request for july please,submit_leave
+set a countdown timer,set_alarm
+set a heating schedule right now,control_home
+what is my insurance plan name please,insurance_query
+what is the status of my flight please,check_flight_status
+can you track my health please,capabilities
+find a gluten free restaurant,restaurant_suggest
+delete a completed task,manage_todo
+turn off notifications please,update_preferences
+what can i'd like to cook without gluten,dietary_advice
+am i'd like to covered for this procedure,insurance_query
+get me a healthy meal delivered please,order_food
+can you find the best rated hotels in rome,book_hotel
+how do i transfer funds,make_transfer
+what vaccinations do i need for travel right now,travel_documents
+can i see my account balance,check_balance
+remind me at 8am tomorrow,set_reminder
+please have i been hitting my daily goals,track_fitness
+what are the best hotels for my trip right now,book_hotel
+i'd like to need an alarm for tomorrow morning,set_alarm
+please how is the traffic this morning,commute_traffic
+please cancel my alarm,set_alarm
+set an alarm before my appointment right now,set_alarm
+set a countdown timer right now,set_alarm
+can you i no longer need this booking,cancel_booking
+i need to be reminded about an appointment please,set_reminder
+please suggest a plant based dinner,dietary_advice
+please schedule a gp visit for me,book_appointment
+can you is there a delay on my flight,check_flight_status
+book a meeting room right now,schedule_meeting
+please i need to know my flight departure time,check_flight_status
+am i meeting my fitness targets right now,track_fitness
+what is my insurance excess please,insurance_query
+book a hotel room for two nights please,book_hotel
+i need a hotel with breakfast included please,book_hotel
+what are my options for flights to berlin right now,book_flight
+can you i need an alarm for tomorrow morning,set_alarm
+can you where is my office located,work_schedule
+can you did i hit my fitness goal today,track_fitness
+hello can you help me today right now,greeting
+wake me up at 6 30 right now,set_alarm
+can you update my dietary preference to vegan,update_preferences
+when is my car service due,car_maintenance
+list everything on my calendar please,check_schedule
+i think my account has been hacked right now,report_fraud
+set a reminder for next monday please,set_reminder
+please organise a planning session for the team,schedule_meeting
+how long does a transfer take please,make_transfer
+how often should i'd like to take this medication,medication_reminder
+show me all your features right now,capabilities
+i'd like to need to fly to paris,book_flight
+suggest a plant based dinner please,dietary_advice
+please change my communication preference,update_preferences
+please set a weekly reminder please,set_reminder
+can you i want to book a flight,book_flight
+what restaurants can i book for this weekend right now,restaurant_suggest
+can you book a meeting room,schedule_meeting
+i need to see my payment schedule please,check_bill_due
+when did i last change my oil,car_maintenance
+list my upcoming payments please,check_bill_due
+please how long does it take to improve credit,check_credit_score
+i want to cancel my travel booking,cancel_booking
+please what is hurting my credit score,check_credit_score
+schedule a catch up with sarah right now,schedule_meeting
+please book time with my manager for a review,schedule_meeting
+show me upcoming bills,check_bill_due
+please book my car in for a service,car_maintenance
+is friday a remote day please,work_schedule
+how much do i have right now,check_balance
+alert me before my deadline please,set_reminder
+please what is the best route to work,commute_traffic
+how do i report card fraud please,report_fraud
+i need to clear my task backlog,manage_todo
+please how active have i been this week,track_fitness
+remind me to take my medication please,medication_reminder
+please find me an easy vegetarian recipe,dietary_advice
+schedule a blood test for me,book_appointment
+set an alarm for 7am,set_alarm
+is my schedule clear for monday right now,check_schedule
+please am i meeting my fitness targets,track_fitness
+please i need ideas for a high protein breakfast,dietary_advice
+please i want to cancel my travel booking,cancel_booking
+is the thermostat set correctly please,control_home
+please find me somewhere to eat,restaurant_suggest
+can you what recurring payments do i have,check_bill_due
+how do i do a bank transfer please,make_transfer
+how much do i have right now right now,check_balance
+i want indian takeaway please,order_food
+hi i want to ask something right now,greeting
+show me my work tasks,task_management
+can you find a restaurant with good reviews,restaurant_suggest
+how is the project progressing right now,task_management
+change my home address right now,update_preferences
+i'd like to want to cancel and rebook,cancel_booking
+did i'd like to take my morning medication,medication_reminder
+is my credit score good enough for a loan,check_credit_score
+can you find hotels near my meeting venue,book_hotel
+please set a heating schedule,control_home
+can you i need a weekend alarm,set_alarm
+please will i have enough pto for my trip,check_pto
+has the airline changed my flight right now,check_flight_status
+please remind me of my outstanding tasks,manage_todo
+find the best rated hotels in rome right now,book_hotel
+please what is a good spot for a date night,restaurant_suggest
+please recommend a family friendly restaurant,restaurant_suggest
+can you what bills are due next week,check_bill_due
+how many sick days have i'd like to used,check_pto
+can you what events do i have coming up,check_schedule
+cancel my alarm right now,set_alarm
+update the status of my task,manage_todo
+can you i want to fly this weekend,book_flight
+please what are the delivery options near me,order_food
+do i have a late finish today,work_schedule
+i require to know my flight departure time,check_flight_status
+can you reschedule my tuesday meeting,schedule_meeting
+tell me the baggage allowance for my flight,travel_documents
+please how many sick days have i used,check_pto
+search for business class flights please,book_flight
+please find me a hotel in paris,book_hotel
+what is the dress code for this meeting,work_schedule
+tell me my resting heart rate,track_fitness
+can you i need to see a specialist,book_appointment
+please book a meeting room,schedule_meeting
+hi there what can you do,greeting
+what meetings do i have at work,work_schedule
+can you change my preferred language,update_preferences
+is my rent paid for this month right now,check_bill_due
+please what restaurants are near me,restaurant_suggest
+check my credit file please,check_credit_score
+turn off the living room lights,control_home
+please what can this assistant help me with,capabilities
+my tyre pressure light is on right now,car_maintenance
+what does my balance look like,check_balance
+please i want to play a trivia game,out_of_scope
+i want to reset my settings please,update_preferences
+set a recurring reminder for my medication right now,medication_reminder
+hi how are you please,greeting
+please undo my hotel reservation,cancel_booking
+i want to be notified about something,set_reminder
+my car needs a service soon right now,car_maintenance
+check my car maintenance schedule please,car_maintenance
+please what direct debits are going out soon,check_bill_due
+i want to change my language setting,update_preferences
+how much do i have right now please,check_balance
+write me a story right now,out_of_scope
+what is planned for the weekend please,check_schedule
+am i'd like to meeting my fitness targets,track_fitness
+i never made this transaction,report_fraud
+show me my smart home status right now,control_home
+i want to cancel and rebook right now,cancel_booking
+i want to make a payment to someone please,make_transfer
+good afternoon please,greeting
+please book annual leave for next week,submit_leave
+can i schedule a future transfer please,make_transfer
+please update my preferences,update_preferences
+please i finished the presentation mark it done,task_management
+withdraw my booking right now,cancel_booking
+can you is my passport valid for this trip,travel_documents
+what vaccinations do i require for travel,travel_documents
+please turn off the living room lights,control_home
+hi'd like to there,greeting
+what is my pto balance please,check_pto
+book a doctor appointment please,book_appointment
+show me work events this week right now,work_schedule
+please escalate this issue in the project,task_management
+please schedule a blood test for me,book_appointment
+can you hi how are you,greeting
+suggest somewhere cheap and cheerful right now,restaurant_suggest
+i finished the report mark it done please,manage_todo
+change my notification settings right now,update_preferences
+can you how busy is the motorway right now,commute_traffic
+is my dental covered by insurance please,insurance_query
+how do i'd like to transfer to a different bank,make_transfer
+can you i want to take the week before christmas off,submit_leave
+can you book flights for me,book_flight
+set a weekly reminder please right now,set_reminder
+please i feel like going for indian food,restaurant_suggest
+i want to transfer money,make_transfer
+please send a progress update for my project,task_management
+i want to be notified about something please,set_reminder
+can you when does my flight depart,check_flight_status
+what floor is my team on right now,work_schedule
+please add an alarm for 8am,set_alarm
+please are there any travel restrictions right now,travel_documents
+what areas do you cover please,capabilities
+is outpatient treatment covered,insurance_query
+hello jarvis are you there right now,greeting
+can you place a food delivery order,order_food
+when is my rent due please,check_bill_due
+do i have a late finish today please,work_schedule
+what can i get delivered near me,order_food
+what are your features right now,capabilities
+can you has the airline changed my flight,check_flight_status
+what smart devices are connected,control_home
+i'd like to need to travel urgently book a flight,book_flight
+are there any bills i might miss right now,check_bill_due
+please recommend a good place for lunch,restaurant_suggest
+add a new work task please,task_management
+i need to see a specialist,book_appointment
+when does my next flight leave right now,check_flight_status
+can you what is planned for the weekend,check_schedule
+can you do i need travel insurance,travel_documents
+cancel my reservation please right now,cancel_booking
+please what is my insurance excess,insurance_query
+cancel my hotel reservation please,cancel_booking
+can you i feel like going for indian food,restaurant_suggest
+am i'd like to rostered in this weekend,work_schedule
+do i'd like to have any bills this week,check_bill_due
+track my food delivery please,order_food
+please find me a healthy recipe,dietary_advice
+please set an alarm for 7am,set_alarm
+please check my upcoming payment dates,check_bill_due
+what is my flight number right now,check_flight_status
+please someone has stolen my card details,report_fraud
+turn on the outdoor lights please,control_home
+what are the customs rules when arriving,travel_documents
+please what tasks can i give you,capabilities
+what documents prove my identity at border control,travel_documents
+please i want to travel to spain next month,book_flight
+please how do i contact my insurance provider,insurance_query
+can you how is my credit rating,check_credit_score
+look up my account balance,check_balance
+i need to get my brakes checked,car_maintenance
+find me a free appointment slot right now,book_appointment
+i need ideas for a high protein breakfast,dietary_advice
+what is my medication schedule right now,medication_reminder
+set the heating to come on at 6pm,control_home
+can i get a referral letter for my insurer right now,insurance_query
+how much money is available to me right now,check_balance
+can you what areas do you cover,capabilities
+add an alarm for 8am please,set_alarm
+how much time off do i have,check_pto
+recommend a family friendly restaurant,restaurant_suggest
+can you i need to send money abroad,make_transfer
+can you list my upcoming payments,check_bill_due
+book a boutique hotel in the city,book_hotel
+can you block my card immediately suspicious activity,report_fraud
+please what project am i working on,task_management
+please arrange a consultation for me,book_appointment
+please start a cooking timer,set_alarm
+please i need to clear my task backlog,manage_todo
+can you give me a fitness progress update,track_fitness
+can you book a boutique hotel in the city,book_hotel
+please place an order from dominos,order_food
+block out time for a presentation,schedule_meeting
+i'd like to want to know my credit score,check_credit_score
+how often should i take this medication,medication_reminder
+i want to dispute a transaction,report_fraud
+what is the full list of things you do,capabilities
+transfer 500 euros to my savings please,make_transfer
+please submit a leave request,submit_leave
+can you how is the project progressing,task_management
+set a reminder for me right now,set_reminder
+can you what hospital am i covered in,insurance_query
+can you good morning,greeting
+can you i need to get my brakes checked,car_maintenance
+what documents do i'd like to need to travel,travel_documents
+what are the best hotels for my trip please,book_hotel
+how often should i take this medication right now,medication_reminder
+please show me my pending tasks,manage_todo
+change my preferred language please,update_preferences
+can you what does my health insurance cover,insurance_query
+is my balance enough for a purchase please,check_balance
+can you what tasks can i give you,capabilities
+do i need a visa for france please,travel_documents
+please why did my credit score drop,check_credit_score
+tell me the speed of light,out_of_scope
+find the cheapest flight to rome,book_flight
+i'd like to need a weekend alarm,set_alarm
+how do i transfer to a different bank please,make_transfer
+please what are the best hotels for my trip,book_hotel
+can you should i leave early today,commute_traffic
+set a deadline reminder for my work task please,task_management
+can you set a reminder for next monday,set_reminder
+is my insurance policy up to date right now,insurance_query
+set an alarm for 7am right now,set_alarm
+please is my credit score good enough for a loan,check_credit_score
+please make a gp appointment for tomorrow,book_appointment
+can you when is my next doctors appointment,book_appointment
+hello i need help right now,greeting
+show me my annual leave status please,check_pto
+can we set up a zoom call,schedule_meeting
+freeze my card there is fraud right now,report_fraud
+please when did i last change my oil,car_maintenance
+what is my deadline for this project please,task_management
+can you what flights are available to amsterdam,book_flight
+can you log my work hours,task_management
+please how do i book a desk at the office,work_schedule
+am i rostered in this weekend right now,work_schedule
+can you find a garage near me,car_maintenance
+please when does my car tax expire,car_maintenance
+i need ideas for a high protein breakfast right now,dietary_advice
+please what is my savings account balance,check_balance
+find a garage near me,car_maintenance
+i would like to know your capabilities,capabilities
+please is my flight on time,check_flight_status
+i need to change my travel plans right now,cancel_booking
+how many steps to hit my daily goal,track_fitness
+how long does a transfer take,make_transfer
+i need windscreen repair right now,car_maintenance
+how do i'd like to add a family member to my insurance,insurance_query
+will i have enough pto for my trip,check_pto
+remind me of my due payments please,check_bill_due
+how long does a transfer take right now,make_transfer
+how many calories have i burned right now,track_fitness
+please how much money do i have,check_balance
+please what is happening tomorrow,check_schedule
+can you track my health right now,capabilities
+add a recurring reminder please,set_reminder
+what is my insurance excess right now,insurance_query
+can you start a cooking timer,set_alarm
+please what smart devices are connected,control_home
+check if i'd like to am free next tuesday,check_schedule
+can i take a week off right now,check_pto
+write me a poem please,out_of_scope
+what is my current credit rating right now,check_credit_score
+tell me my creditworthiness right now,check_credit_score
+please list my upcoming payments,check_bill_due
+what should i'd like to eat before a workout,dietary_advice
+order from my favourite restaurant right now,order_food
+i need to visit the hospital,book_appointment
+debug my python code,out_of_scope
+book a doctor appointment right now,book_appointment
+is my flight on time please,check_flight_status
+please show me all your features,capabilities
+there is a transaction i did not make right now,report_fraud
+dim the bedroom lights please,control_home
+please how do i transfer to a different bank,make_transfer
+please am i rostered in this weekend,work_schedule
+can you find me the earliest available doctor,book_appointment
+i'd like to need a hotel with breakfast included,book_hotel
+please set a countdown timer,set_alarm
+please set up a video call for the project,schedule_meeting
+i want to travel to spain next month please,book_flight
+tell me a fun fact about space right now,out_of_scope
+can you give me a traffic report for my area,commute_traffic
+how much money do i have right now,check_balance
+submit a half day leave request please,submit_leave
+can you alert me before my deadline,set_reminder
+hi'd like to there what can you do,greeting
+hello can you help me today please,greeting
+can you book hotel accommodation for the conference,book_hotel
+what is my savings account balance right now,check_balance
+show my home security camera right now,control_home
+find a time for a team meeting,schedule_meeting
+request pto for my holiday right now,submit_leave
+i want to know my credit score right now,check_credit_score
+can you book a long weekend off,submit_leave
+please add submit my report to my to do list,manage_todo
+is my car insurance up to date please,car_maintenance
+book me on the earliest flight tomorrow right now,book_flight
+please do i need an esta to visit america,travel_documents
+what can this assistant help me with,capabilities
+what is my resting heart rate,track_fitness
+translate this sentence to japanese,out_of_scope
+please book me on the earliest flight tomorrow,book_flight
+please change my name in the system,update_preferences
+how many days off can i still take please,check_pto
+will i be late if i leave now,commute_traffic
+have i missed any medication today,medication_reminder
+check my energy usage today,control_home
+what is the speed of light right now,out_of_scope
+i need to clear my task backlog right now,manage_todo
+search for available flights,book_flight
+can you what is the parking situation at the office,commute_traffic
+add a task to my to do list,manage_todo
+can you what project am i working on,task_management
+what is on my calendar please,check_schedule
+check my car maintenance schedule,car_maintenance
+i require to book 5 days off,submit_leave
+i need a 25 minute timer right now,set_alarm
+i need to get my brakes checked right now,car_maintenance
+i want to go out for dinner please,restaurant_suggest
+place a food delivery order please,order_food
+cancel the restaurant reservation please,cancel_booking
+report a suspicious transaction please,report_fraud
+please cancel the paris hotel,cancel_booking
+book a hotel room for two nights,book_hotel
+tell me my shift pattern,work_schedule
+can you predict the lottery numbers,out_of_scope
+check my car maintenance schedule right now,car_maintenance
+find me a hotel in paris right now,book_hotel
+can you am i covered for this procedure,insurance_query
+can you check traffic on my usual route,commute_traffic
+what is the status of my flight,check_flight_status
+how do i get my money back for a cancelled trip please,cancel_booking
+can you play chess with me right now,out_of_scope
+how many steps to hit my daily goal right now,track_fitness
+can you there is a transaction i did not make,report_fraud
+please what are your features,capabilities
+i want to pay back a friend right now,make_transfer
+please when does my flight depart,check_flight_status
+please report a suspicious transaction,report_fraud
+find fast food delivery near me please,order_food
+cancel my reservation please please,cancel_booking
+can you remind me at 8am to take my pills,medication_reminder
+can you tell me what you are capable of,capabilities
+please can i schedule a future transfer,make_transfer
+book a boutique hotel in the city please,book_hotel
+can you freeze my card there is fraud,report_fraud
+can you create a new task for me,manage_todo
+please what documents do i need to travel,travel_documents
+hello i'd like to need help,greeting
+hello,greeting
+log my work hours,task_management
+when does my next flight leave,check_flight_status
+remind me of my due payments,check_bill_due
+please find hotels with gym facilities,book_hotel
+can you i need to book a hotel,book_hotel
+display my activity for the week,track_fitness
+how much is in my account,check_balance
+i want to cancel and rebook please,cancel_booking
+cancel my reservation please,cancel_booking
+i'd like to need to dispute an unauthorised payment,report_fraud
+what is planned for the weekend right now,check_schedule
+can you set my morning alarm,set_alarm
+can you my card has been used fraudulently,report_fraud
+can you schedule a gp visit for me,book_appointment
+can you hello can you help me today,greeting
+compose an email to my colleague right now,out_of_scope
+cancel the paris hotel please,cancel_booking
+i need to review the project timeline please,task_management
+my car battery might be low please,car_maintenance
+how many steps have i taken today right now,track_fitness
+what bills do i have coming up,check_bill_due
+i need a flight ticket,book_flight
+can you hey jarvis,greeting
+suggest hotels that match my budget right now,book_hotel
+can i'd like to get a referral letter for my insurer,insurance_query
+please i need to see a specialist,book_appointment
+can you how many days off do i have left,check_pto
+reschedule my tuesday meeting right now,schedule_meeting
+please i need to get my brakes checked,car_maintenance
+help me understand what you can do,capabilities
+can you check my bank balance,check_balance
+please how did i sleep last night,track_fitness
+apply for annual leave,submit_leave
+suggest a restaurant for tonight,restaurant_suggest
+can you change my alarm to 7 30,set_alarm
+what score do i require for a mortgage,check_credit_score
+find an alternative route to avoid traffic right now,commute_traffic
+please set a deadline reminder for my work task,task_management
+remind me to call someone please,set_reminder
+please reschedule my tuesday meeting,schedule_meeting
+tell me about my upcoming financial obligations please,check_bill_due
+check my leave balance,check_pto
+can you check my upcoming payment dates,check_bill_due
+can you i want to know my credit score,check_credit_score
+move this to completed right now,manage_todo
+please i no longer want sms notifications,update_preferences
+can you change my communication preference,update_preferences
+submit a pto request for july right now,submit_leave
+please do i have private health insurance,insurance_query
+please turn off all devices,control_home
+solve this math problem for me right now,out_of_scope
+compose an email to my colleague please,out_of_scope
+find the cheapest flight to rome right now,book_flight
+can you update me on my morning commute,commute_traffic
+can i get a refund if i cancel please,cancel_booking
+can you find me an easy vegetarian recipe,dietary_advice
+check if this treatment is covered right now,insurance_query
+what is the capital of mongolia,out_of_scope
+please can i book a last minute flight,book_flight
+add extra items to my order please,order_food
+can you block out time for a presentation,schedule_meeting
+put in a leave request for me right now,submit_leave
+can you is there an accident on my route,commute_traffic
+are there any bills i might miss,check_bill_due
+please my identity may have been stolen,report_fraud
+please has the airline changed my flight,check_flight_status
+find me a flight to london right now,book_flight
+what bills are due next week,check_bill_due
+can i cancel without a penalty right now,cancel_booking
+did i hit my fitness goal today right now,track_fitness
+what do i owe this month,check_bill_due
+assign this task to my teammate please,task_management
+what is the baggage allowance for my flight,travel_documents
+i want to cancel my travel booking please,cancel_booking
+what does my balance look like please,check_balance
+set up a video call for the project right now,schedule_meeting
+please set up a transfer for me,make_transfer
+i require to see my payment schedule,check_bill_due
+is my passport expiring soon right now,travel_documents
+i need to visit the hospital right now,book_appointment
+i prefer formal language please please,update_preferences
+can you i need a daily reminder for my prescription,medication_reminder
+i require to call off my trip,cancel_booking
+can you what tasks are overdue,manage_todo
+can i'd like to take a week off,check_pto
+can you show my fitness trends this month,track_fitness
+do i have a late finish today right now,work_schedule
+is my flight on time right now,check_flight_status
+please find fast food delivery near me,order_food
+wake me up early for my flight right now,set_alarm
+how long is my visa valid for please,travel_documents
+i require a 25 minute timer,set_alarm
+what tasks do i'd like to have to complete,manage_todo
+can you move my 2pm meeting to 4pm,schedule_meeting
+how is the project progressing please,task_management
+switch to email notifications please,update_preferences
+when is my next doctors appointment please,book_appointment
+please find a time for a team meeting,schedule_meeting
+debug my python code right now,out_of_scope
+suggest hotels that match my budget please,book_hotel
+what is the fastest way to the office please,commute_traffic
+am i working from home today,work_schedule
+i need to get my brakes checked please,car_maintenance
+book a table for two tonight right now,restaurant_suggest
+i finished the presentation mark it done right now,task_management
+schedule my annual health checkup right now,book_appointment
+did i hit my fitness goal today,track_fitness
+schedule a car wash please,car_maintenance
+i am vegetarian what can i have for lunch please,dietary_advice
+will i'd like to have enough pto for my trip,check_pto
+close out the completed tasks,task_management
+i need pet friendly accommodation right now,book_hotel
+what can i get delivered near me please,order_food
+what direct debits are going out soon please,check_bill_due
+plan my meals for the week please,dietary_advice
+please when is everyone free for a meeting,schedule_meeting
+please i want to see my itinerary,check_flight_status
+please how many vacation days are remaining,check_pto
+can you how long did i sleep,track_fitness
+i want to try something new for dinner right now,dietary_advice
+how do i add a family member to my insurance right now,insurance_query
+wake me up early for my flight,set_alarm
+please i think my account has been hacked,report_fraud
+please how many days off do i have left,check_pto
+is the ryanair flight delayed today,check_flight_status
+i want to take a day off on monday right now,submit_leave
+can you flag a suspicious charge,report_fraud
+can you tell me about visa requirements,travel_documents
+please break down this task into steps,manage_todo
+tell me what you are capable of right now,capabilities
+please turn off all the lights,control_home
+hi there what can you do right now,greeting
+please how many calories have i burned,track_fitness
+i would like to reset my settings,update_preferences
+what healthy snacks can i eat right now,dietary_advice
+please what movies are showing tonight,out_of_scope
+what is my available balance please,check_balance
+i require a reminder for tomorrow,set_reminder
+can you break down this task into steps,manage_todo
+please did i take my morning medication,medication_reminder
+has my flight been delayed right now,check_flight_status
+what is the transfer limit,make_transfer
+please suggest a restaurant for tonight,restaurant_suggest
+request parental leave,submit_leave
+request pto for my holiday,submit_leave
+when is my next payment due right now,check_bill_due
+when did i last change my oil right now,car_maintenance
+am i close to my step goal,track_fitness
+can you are there public transport delays,commute_traffic
+can i transfer money internationally please,make_transfer
+tell me on my calendar,check_schedule
+find a restaurant with good reviews right now,restaurant_suggest
+please what is my medication schedule,medication_reminder
+please i did not make this purchase,report_fraud
+i'd like to need a reminder for tomorrow,set_reminder
+please update my profile,update_preferences
+what project am i working on,task_management
+can you set a deadline reminder for my work task,task_management
+please i need to organise my tasks,manage_todo
+please i need to be reminded about an appointment,set_reminder
+set the heating to come on at 6pm please,control_home
+what is a good spot for a date night,restaurant_suggest
+please when do i finish work this week,work_schedule
+what is my deadline for this project,task_management
+create a medication alarm for me please,medication_reminder
+what time does the office open,work_schedule
+can you set a weekly reminder please,set_reminder
+what tasks did my team complete this week right now,task_management
+apply for annual leave please,submit_leave
+what are the delivery options near me,order_food
+can you i want to go out for dinner,restaurant_suggest
+reorder my usual,order_food
+can you is my rent paid for this month,check_bill_due
+please what is my resting heart rate,track_fitness
+can you book a return flight to new york,book_flight
+show me my pending tasks right now,manage_todo
+when do i take my blood pressure pills please,medication_reminder
+i need a hotel with breakfast included right now,book_hotel
+please is there traffic on my commute,commute_traffic
+please my tyre pressure light is on,car_maintenance
+block my card immediately suspicious activity,report_fraud
+please what time is my next event,check_schedule
+can you how is the traffic this morning,commute_traffic
+add a new work task,task_management
+please how many miles since my last service,car_maintenance
+set a reminder for me,set_reminder
+what is my average sleep right now,track_fitness
+do i have private health insurance right now,insurance_query
+i want to see a physiotherapist please,book_appointment
+i need sick leave for today please,submit_leave
+what is the fastest way to the office,commute_traffic
+show tasks due this week right now,manage_todo
+can you how do i transfer funds,make_transfer
+i need pet friendly accommodation,book_hotel
+i need to call off my trip please,cancel_booking
+i prefer formal language please right now,update_preferences
+please what areas do you cover,capabilities
+what events do i have coming up right now,check_schedule
+please can you play chess with me,out_of_scope
+can you i need to see my payment schedule,check_bill_due
+what are your features,capabilities
+can you check road conditions for my journey,commute_traffic
+add a recurring task please,manage_todo
+can you book my car for a tyre change,car_maintenance
+can you what should i eat before a workout,dietary_advice
+please what tasks did my team complete this week,task_management
+what smart devices are connected please,control_home
+how long will it take to get to work please,commute_traffic
+please do i have a late finish today,work_schedule
+i am vegetarian what can i have for lunch right now,dietary_advice
+please alarm at 6am every weekday,set_alarm
+how long since my last oil change right now,car_maintenance
+can you find me a hotel in paris,book_hotel
+how much do i'd like to owe for bills this month,check_bill_due
+what recurring payments do i have right now,check_bill_due
+what is the parking situation at the office right now,commute_traffic
+what is my shift pattern right now,work_schedule
+search for hotels near the city centre,book_hotel
+please i want to cancel and rebook,cancel_booking
+start a cooking timer,set_alarm
+can you what is my car registration,car_maintenance
+withdraw my booking please,cancel_booking
+can you check if i am free next tuesday,check_schedule
+can you when did i last change my oil,car_maintenance
+can you request pto for my holiday,submit_leave
+did i hit my fitness goal today please,track_fitness
+can you what is my current credit rating,check_credit_score
+how do i book a desk at the office please,work_schedule
+please find a restaurant open right now,restaurant_suggest
+how did i'd like to sleep last night,track_fitness
+please schedule a catch up with sarah,schedule_meeting
+i need to see a specialist please,book_appointment
+what recurring payments do i'd like to have,check_bill_due
+help me move money to savings please,make_transfer
+place an order from dominos please,order_food
+can i get a referral letter for my insurer,insurance_query
+please i want to change my language setting,update_preferences
+i would like push notifications instead,update_preferences
+can you i take ramipril daily remind me please,medication_reminder
+remind me at 8am to take my pills please,medication_reminder
+change my name in the system right now,update_preferences
+set up a video call for the project please,schedule_meeting
+can you update the status of my report,task_management
+can you find direct flights to dubai,book_flight
+please set a daily reminder for me,set_reminder
+can you what is my insurance excess,insurance_query
+can you what score do i need for a mortgage,check_credit_score
+can you check the progress on my tasks,task_management
+find me a flight to london please,book_flight
+what is my account balance,check_balance
+please what is my leave entitlement,check_pto
+what restaurants can i book for this weekend please,restaurant_suggest
+do i'd like to need travel insurance,travel_documents
+show me the office schedule right now,work_schedule
+i want to know your capabilities please,capabilities
+is my rent paid for this month,check_bill_due
+can you what can you do,capabilities
+update my account information please,update_preferences
+cancel my food order,order_food
+can you how much do i have right now,check_balance
+can you find a free slot for a meeting next week,schedule_meeting
+please are there any delays on my commute,commute_traffic
+compare my steps to last week right now,track_fitness
+alert me when it is time for my next dose please,medication_reminder
+can you schedule a meeting for tomorrow,schedule_meeting
+can you search for available flights,book_flight
+please find a vegetarian friendly restaurant,restaurant_suggest
+process a transfer for me please please,make_transfer
+i require a notification for my event,set_reminder
+update my emergency contact,update_preferences
+please can you manage my calendar,capabilities
+please what time does the office open,work_schedule
+check if this treatment is covered please,insurance_query
+i want to see my itinerary please,check_flight_status
+what is my resting heart rate please,track_fitness
+can i see my account balance right now,check_balance
+how much pto rolls over next year right now,check_pto
+can you request time off for my trip,submit_leave
+do i have any meetings today please,check_schedule
+can you set an alert for my meeting,set_reminder
+get me a pizza delivered,order_food
+explain my credit score to me right now,check_credit_score
+set a recurring reminder for my medication please,medication_reminder
+am i in the office tomorrow,work_schedule
+order from my favourite restaurant please,order_food
+what smart devices are connected right now,control_home
+please what is the meaning of life,out_of_scope
+can you what are the customs rules when arriving,travel_documents
+i want to try something new to eat right now,restaurant_suggest
+can you i did not make this purchase,report_fraud
+what is my remaining annual leave right now,check_pto
+please how much is my insurance premium,insurance_query
+i no longer need this booking,cancel_booking
+what is due at the end of the month please,check_bill_due
+please am i working from home today,work_schedule
+how is the traffic this morning please,commute_traffic
+do you handle banking queries,capabilities
+can you remind me with an alarm in 2 hours,set_alarm
+can you am i rostered in this weekend,work_schedule
+display my insurance details,insurance_query
+what is my remaining annual leave please,check_pto
+can you has my flight been delayed,check_flight_status
+i need a gluten free recipe right now,dietary_advice
+can you book accommodation for my trip,book_hotel
+i did not make this purchase right now,report_fraud
+track whether i have taken my medicine today please,medication_reminder
+can i move money between accounts,make_transfer
+can you good day,greeting
+what fees apply to transfers right now,make_transfer
+can you do i have any meetings today,check_schedule
+can you am i meeting my fitness targets,track_fitness
+can you hi there,greeting
+what fees apply to transfers,make_transfer
+change my name in the system please,update_preferences
+i want to see my leave history,check_pto
+good morning right now,greeting
+please create a medication alarm for me,medication_reminder
+set up medication reminders for me,medication_reminder
+can you what is my available balance,check_balance
+remind me at 8am to take my pills,medication_reminder
+please mark this task as done,manage_todo
+what are my flight details please,check_flight_status
+please what services can you help with,capabilities
+i want indian takeaway,order_food
+what is my car registration please,car_maintenance
+update my emergency contact right now,update_preferences
+check road conditions for my journey,commute_traffic
+i'd like to want to change my hotel booking,book_hotel
+i need to make a medical appointment right now,book_appointment
+wake me up at 6 30,set_alarm
+how many days can i'd like to book off still,check_pto
+do i require an esta to visit america,travel_documents
+i did not make this purchase please,report_fraud
+how many days can i book off still,check_pto
+there is an unauthorised payment on my account please,report_fraud
+i need a weekend alarm right now,set_alarm
+i need to book a mot please,car_maintenance
+close out the completed tasks right now,task_management
+please update my emergency contact,update_preferences
+i did not make this purchase,report_fraud
+do i need an esta to visit america,travel_documents
+can you i want to change my hotel booking,book_hotel
+please set an alarm before my appointment,set_alarm
+please what is the fastest way to the office,commute_traffic
+i require an alarm for tomorrow morning,set_alarm
+can you what is my flight number,check_flight_status
+please what travel documents should i bring,travel_documents
+how do i add a family member to my insurance,insurance_query
+please what do you support,capabilities
+i need to track my medication schedule right now,medication_reminder
+someone has stolen my card details,report_fraud
+can you what are my options for flights to berlin,book_flight
+remind me of my outstanding tasks right now,manage_todo
+do i need an esta to visit america right now,travel_documents
+remind me of my due payments right now,check_bill_due
+list my upcoming payments,check_bill_due
+can you activate the security alarm,control_home
+tell me the meaning of life,out_of_scope
+i want to see my leave history please,check_pto
+submit a leave request please,submit_leave
+i want to take a day off on monday,submit_leave
+my card has been used fraudulently please,report_fraud
+can you what are the delivery options near me,order_food
+what is my flight number,check_flight_status
+how long will it take to get to work,commute_traffic
+snooze my alarm,set_alarm
+i require to be reminded about an appointment,set_reminder
+order chinese food for tonight,order_food
+what will the stock market do tomorrow right now,out_of_scope
+what can i eat for dinner tonight please,dietary_advice
+do i'd like to have any meetings today,check_schedule
+please is my dental covered by insurance,insurance_query
+tell me my medication schedule,medication_reminder
+can you show me the office schedule,work_schedule
+i need to call off my trip right now,cancel_booking
+i want to see my itinerary right now,check_flight_status
+what floor is my team on please,work_schedule
+what meetings do i have this week right now,check_schedule
+please how do i add a family member to my insurance,insurance_query
+help me move money to savings,make_transfer
+find recipes that match my diet right now,dietary_advice
+i need a reminder for tomorrow please,set_reminder
+what is the dress code for this meeting please,work_schedule
+review my upcoming schedule please please,check_schedule
+what events do i'd like to have coming up,check_schedule
+can you close out the completed tasks,task_management
+please book a doctor appointment,book_appointment
+do i have anything scheduled for this afternoon please,check_schedule
+what milestones are coming up,task_management
+book me on the earliest flight tomorrow,book_flight
+can you when is my subscription payment,check_bill_due
+please what tasks do i have to complete,manage_todo
+add a recurring task right now,manage_todo
+tell me covered under my vhi plan,insurance_query
+what are the limits on my health cover please,insurance_query
+can you how many steps have i taken today,track_fitness
+find hotels with gym facilities please,book_hotel
+book a long weekend off right now,submit_leave
+can you book a table for two tonight,restaurant_suggest
+please turn off notifications,update_preferences
+can you what can i cook without gluten,dietary_advice
+can you what is the best route to work,commute_traffic
+can you i want to transfer money,make_transfer
+who is my manager,work_schedule
+tell me the full list of things you do,capabilities
+can you set up medication reminders for me,medication_reminder
+request time off for my trip right now,submit_leave
+please add a high priority item to my list,manage_todo
+update my date of birth right now,update_preferences
+do i have any meetings today,check_schedule
+move this to completed,manage_todo
+can you remind me of my due payments,check_bill_due
+can you check my appointments for this week,check_schedule
+i want a low calorie dinner idea right now,dietary_advice
+i want to be notified about something right now,set_reminder
+what meetings do i have at work please,work_schedule
+show my fitness trends this month please,track_fitness
+can you i want to dispute a transaction,report_fraud
+set up a video call for the project,schedule_meeting
+please change my alarm to 7 30,set_alarm
+review my upcoming schedule please right now,check_schedule
+can i'd like to transfer money internationally,make_transfer
+please what is my car registration,car_maintenance
+process my leave request for next month,submit_leave
+i want to travel to spain next month right now,book_flight
+i need to book 5 days off right now,submit_leave
+please how often should i take this medication,medication_reminder
+are there public transport delays please,commute_traffic
+i need to send a payment,make_transfer
+can you track my health,capabilities
+what temperature is the house,control_home
+book a meeting room,schedule_meeting
+please what are my options for eating out tonight,restaurant_suggest
+i am vegetarian what can i have for lunch,dietary_advice
+suggest somewhere cheap and cheerful,restaurant_suggest
+can you book a hotel room for two nights,book_hotel
+please how many days off can i still take,check_pto
+please are there public transport delays,commute_traffic
+hey good morning right now,greeting
+what are the best restaurants nearby please,restaurant_suggest
+please can you manage my work tasks,capabilities
+do i'd like to have any holidays left,check_pto
+please check if my paris flight is on schedule,check_flight_status
+can you update my date of birth,update_preferences
+i need an alarm for tomorrow morning right now,set_alarm
+please tell me my balance please,check_balance
+search for hotels with free cancellation please,book_hotel
+book me somewhere to stay in london,book_hotel
+can you remove all alarms,set_alarm
+please are there any bills i might miss,check_bill_due
+get me a pizza delivered right now,order_food
+what flights are available to amsterdam,book_flight
+display work events this week,work_schedule
+can you suggest somewhere cheap and cheerful,restaurant_suggest
+how do i transfer to a different bank,make_transfer
+book a dental appointment,book_appointment
+please is the dart running on time,commute_traffic
+can you pull up my balance,check_balance
+can you is my passport expiring soon,travel_documents
+please what is my current balance,check_balance
+book a flight for next week,book_flight
+can you is the office closed next week,work_schedule

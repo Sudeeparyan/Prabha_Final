@@ -1,0 +1,45 @@
+THESIS RESULTS — HYBRID DATASET DESIGN
+Knowledge Graph-Based Editable Memory for Token-Efficient Personalised AI Assistants
+Student: Jai Prabhas Malluri - 24310875 | NCI MSc Open Data Practice
+
+DATASET DESIGN (Two-Source Hybrid):
+  Part A — CLINC150 (real benchmark): intent classifier training + benchmarking
+           150 intents, 10 life domains, peer-reviewed, published baselines exist
+  Part B — Synthetic: EMG-RAG personalised evaluation
+           No existing dataset has (query, user-memory, ground-truth) triples
+           Wang et al. 2024 (closest prior work) also used simulated scenarios
+
+RESEARCH EVOLUTION:
+  v1 Banking77:   77 intents, 1 domain (banking) — too narrow for personal assistant
+  v2 CLINC150:    150 intents, 10 domains — right for classification but cannot
+                  evaluate personalised memory retrieval (no user context)
+  v3 Hybrid:      CLINC150 trains classifier, synthetic evaluates EMG-RAG pipeline
+
+PART A — INTENT CLASSIFICATION (CLINC150)
+              model  accuracy  f1_weighted  precision  recall  train_sec
+Logistic Regression    0.8278       0.8233     0.8381  0.8278       8.76
+      Random Forest    0.7844       0.7717     0.8071  0.7844      17.29
+             BiLSTM    0.7553       0.7237     0.7901  0.7553     482.68
+Best classifier: Logistic Regression | Published dual-encoder baseline: ~92%
+
+PART B — CRUD LATENCY (Problem 2: Dynamic Memory)
+  Insert: 16.88 ms | Update: 20.15 ms | Delete: 7.52 ms
+  No model retrained. Changes reflected in next query immediately.
+
+PART B — RAG EVALUATION (20 synthetic personalised queries)
+  Cond A Direct LLM: ROUGE-L=0.1068 BLEU=0.009 EM=0/20 Tokens=28.4
+  Cond B Flat RAG:   ROUGE-L=0.5317 BLEU=0.213 EM=1/20 Tokens=157.1
+  Cond C EMG-RAG:    ROUGE-L=0.5874 BLEU=0.2644 EM=1/20 Tokens=145.4
+  Token reduction C vs B: 7.5%
+
+THESIS CLAIMS VERIFICATION:
+  Claim 1 Best classifier accuracy >= 90%:       NOT MET (75.53%)
+  Claim 2 EMG-RAG quality >= Flat RAG (±5%):    PASSED
+  Claim 3 EMG-RAG uses fewer tokens than B:     PASSED (7.5% reduction)
+  Claim 4 All CRUD operations < 100ms:          PASSED
+
+THREE PROBLEMS SOLVED:
+  P1 Token Exhaustion: 7.5% reduction — intent-guided graph (2 nodes) vs flat RAG (3 docs)
+  P2 Dynamic Memory:   CRUD in <20.15ms — no model retraining required
+  P3 Intent Mismatch:  'balance' -> AccountState+Event | 'report_fraud' -> FAQ+Event
+                       Same keyword, different graph regions, correct context each time
