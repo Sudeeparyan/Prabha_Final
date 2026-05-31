@@ -1,5 +1,5 @@
 # Literature Review
-# Knowledge Graph-Based Editable Memory for Token-Efficient Personalised Banking AI
+# Knowledge Graph-Based Editable Memory for Token-Efficient Personalised AI Assistants
 
 **Student:** Jai Prabhas Malluri (24310875)
 **NCI MSc Open Data Practice - Research Practicum MSCODP1**
@@ -72,23 +72,23 @@ Sun et al. (2025) showed that persistent user profiles combined with dynamically
 
 ---
 
-## 5. Intent Classification for Customer Service AI
+## 5. Intent Classification for Personal AI Assistants
 
-Casanueva et al. (2020) introduced the Banking77 dataset with 13083 customer service utterances and 77 fine-grained banking intents. Their dual-encoder models achieved accuracy above 92% on this benchmark. Banking77 is the direct evaluation dataset for the intent classification component of this thesis, and the published 92% accuracy from dual-encoder models provides a comparison point against which the LSTM results can be interpreted.
+Larson et al. (2019) introduced the CLINC150 benchmark with 22,500 utterances across 150 fine-grained intents in 10 life domains (banking, travel, health, calendar, home, dining, work, auto, utility, meta). CLINC150 is the primary evaluation dataset for the intent classification component of this thesis. Its multi-domain coverage directly matches the multi-domain personal assistant problem, which requires routing queries about flights, medications, rent, and work PTO to different typed regions of the memory graph. Banking77, which covers only a single banking domain, was considered in the initial version of this research but was replaced because single-domain intent labels cannot demonstrate typed traversal across the four node type subgraphs in the EMG.
 
-Devlin et al. (2019) introduced BERT, which established bidirectional pre-training as the dominant approach for downstream NLP classification tasks. BERT and its variants now represent the performance ceiling for intent classification. This thesis uses LSTM rather than BERT, which is a deliberate choice: the novelty of this thesis is not in the classifier but in how the classifier output is used to guide graph retrieval. A lightweight LSTM on CPU demonstrates that the architectural contribution is valuable even without a state-of-the-art classifier.
+Casanueva et al. (2020) introduced the Banking77 dataset with 13,083 customer service utterances and 77 fine-grained banking intents. Their dual-encoder models achieved accuracy above 92% on this benchmark. Banking77 was used as the initial dataset in this research (v1) and is referenced throughout the literature as a standard baseline for customer service intent classification, providing a comparison point for single-domain vs multi-domain task difficulty.
 
-Vaswani et al. (2017) introduced the Transformer architecture, which is the foundation of all modern LLMs and the direct reason why attention-based models outperform recurrent networks on most sequence tasks. Understanding this architecture helps contextualise the LSTM used in this thesis as a computationally accessible and well-established baseline.
+Devlin et al. (2019) introduced BERT, which established bidirectional pre-training as the dominant approach for downstream NLP classification tasks. BERT and its variants now represent the performance ceiling for intent classification. This thesis uses a Bidirectional LSTM (PyTorch) rather than BERT, which is a deliberate choice: the novelty of this thesis is not in the classifier but in how the classifier output is used to guide graph retrieval. A lightweight BiLSTM demonstrates that the architectural contribution is valuable even without a state-of-the-art transformer classifier.
+
+Vaswani et al. (2017) introduced the Transformer architecture, which is the foundation of all modern LLMs and the direct reason why attention-based models outperform recurrent networks on most sequence tasks. Understanding this architecture helps contextualise the BiLSTM used in this thesis as a computationally accessible and well-established baseline.
 
 Cho et al. (2014) introduced the GRU as an efficient alternative to LSTM, providing the empirical comparison between recurrent architectures that justifies the LSTM choice in this thesis. GRU has fewer parameters than LSTM but performs comparably on many tasks.
 
-Mehdi et al. (2024) evaluated LLM fine-tuning for banking chatbot intent classification and achieved a 10% accuracy improvement over baseline methods through domain-specific adaptation. Their work confirms that the banking domain has sufficient specificity to justify domain-specific training data, supporting the use of Banking77 rather than a general-purpose intent dataset.
+Mehdi et al. (2024) evaluated LLM fine-tuning for banking chatbot intent classification and achieved a 10% accuracy improvement over baseline methods through domain-specific adaptation. Their work confirms that domain-appropriate training data is critical for intent classification quality.
 
-Ahmad et al. (2024) demonstrated that LLM-generated synthetic training data alleviates labelled data scarcity in intent classification for virtual assistants. Their approach is complementary to the Banking77 fine-tuning in this thesis.
+Ahmad et al. (2024) demonstrated that LLM-generated synthetic training data alleviates labelled data scarcity in intent classification for virtual assistants. Their approach is complementary to the CLINC150 training used in this thesis.
 
-Cho et al. (2025) benchmarked BERT, RoBERTa, and DistilBERT on CLINC150 for QA chatbot intent classification, providing performance ceiling reference points for the transformer-based approach that could be applied to Banking77 in future work.
-
-Larson et al. (2019) introduced the CLINC150 benchmark with 150 intents across 10 domains, which is used as a supplementary evaluation dataset in this thesis to test whether the intent-guided retrieval framework generalises beyond the banking domain.
+Cho et al. (2025) benchmarked BERT, RoBERTa, and DistilBERT on CLINC150 for QA chatbot intent classification, providing performance ceiling reference points for the transformer-based approach. These results contextualise the BiLSTM accuracy reported in this thesis against the state-of-the-art upper bound.
 
 ---
 
@@ -128,11 +128,11 @@ Gap 1 — Token efficiency is not measured in EMG-RAG systems: Wang et al. (2024
 
 Gap 2 — Intent classification is not used to guide graph traversal: The Wang et al. (2024) EMG system retrieves nodes using flat text similarity. Graph-based retrieval systems (GraphRAG, HippoRAG, KG-RAG) use graph connectivity or text similarity for traversal. No existing system uses the output of a fine-tuned intent classifier to select which node types to search.
 
-Gap 3 — EMG-RAG has not been applied to a banking domain benchmark: Wang et al. (2024) evaluated on a general assistant scenario. Banking77 provides 77 fine-grained intents with published baselines. No paper applies EMG-RAG to this benchmark.
+Gap 3 — EMG-RAG has not been applied to a multi-domain personal assistant benchmark: Wang et al. (2024) evaluated on a general assistant scenario without a published benchmark. CLINC150 provides 150 fine-grained intents across 10 life domains with published baselines. No paper applies intent-guided EMG-RAG to this benchmark or demonstrates that typed retrieval routing generalises across multiple life domains simultaneously.
 
-Gap 4 — Quality and efficiency have not been jointly measured in a personalised chatbot evaluation: Most RAG papers measure only response quality (ROUGE, BLEU, EM). Most efficiency papers measure only speed or cost. No paper evaluates both dimensions simultaneously for a personalised banking assistant.
+Gap 4 — Quality and efficiency have not been jointly measured in a personalised AI assistant evaluation: Most RAG papers measure only response quality (ROUGE, BLEU, EM). Most efficiency papers measure only speed or cost. No paper evaluates both dimensions simultaneously for a personalised multi-domain AI assistant.
 
-This thesis addresses all four gaps in a single system: intent-guided EMG-RAG evaluated on Banking77 with both quality metrics and token cost measured.
+This thesis addresses all four gaps in a single system: intent-guided EMG-RAG evaluated on CLINC150 with both quality metrics and token cost measured, delivered as a Flask web application with real-time graph editing and file upload capabilities.
 
 ---
 

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "pref_dietary",
+    "type": "Preference",
+    "label": "Dietary Preferences",
+    "content": "Priya is vegetarian and gluten-intolerant. Allergic to shellfish — medical alert. Preferred cuisines: Italian and Indian. Avoids processed food and refined sugar. Dinner target under 600 calories. Favourite restaurant area: Dublin 2 city centre.",
+    "intents": ["dietary_advice", "restaurant_suggest", "order_food"]
+  },
+  {
+    "id": "pref_commute",
+    "type": "Preference",
+    "label": "Commute Preferences",
+    "content": "Daily commute: Sandymount Dublin 4 to Grand Canal Dock Dublin 2. Mode: DART from Sandymount station (5-min walk from home). Departs 8:00am weekdays. Journey: 12 minutes. Monthly DART Leap card active. Prefers traffic alerts 30 minutes before departure.",
+    "intents": ["commute_traffic"]
+  },
+  {
+    "id": "pref_notifications",
+    "type": "Preference",
+    "label": "Notification Preferences",
+    "content": "Prefers email for all notifications including financial alerts and work updates (updated 30 May 2026). SMS only for urgent security alerts. Push notifications disabled. Quiet hours 10pm to 7am — no alerts during this window.",
+    "intents": ["update_preferences", "set_reminder"]
+  },
+  {
+    "id": "pref_music",
+    "type": "Preference",
+    "label": "Music Preferences",
+    "content": "Commute playlist: lo-fi hip hop and ambient electronic. Evening: jazz and bossa nova. Morning wake-up: low-tempo acoustic instrumental. Study sessions: binaural focus beats. Dislikes: heavy metal, aggressive EDM. Streaming service: Spotify Premium.",
+    "intents": ["update_preferences"]
+  },
+  {
+    "id": "pref_fitness",
+    "type": "Preference",
+    "label": "Fitness Preferences",
+    "content": "Gym 3 times per week: Tuesday, Thursday, Saturday at Flyefit Grand Canal Dock. Morning workouts preferred — 6:30am before work. Daily step goal: 10,000 steps. Runs Sandymount Strand every Sunday 7am, 5km. Yoga class Friday evenings 6pm at Ashtanga Dublin.",
+    "intents": ["track_fitness", "set_alarm", "book_appointment"]
+  },
+  {
+    "id": "pref_home",
+    "type": "Preference",
+    "label": "Home Setup",
+    "content": "Home address: 14 Strand Road, Sandymount, Dublin 4, D04 X2Y1. 2-bed apartment, ground floor. Smart heating: Nest thermostat set to 20°C from 6pm daily. Smart lights: Philips Hue, bedroom auto-off at 11pm. Broadband: Virgin Media 500Mbps. Heating bill via Electric Ireland direct debit.",
+    "intents": ["control_home", "check_bill_due"]
+  },
+  {
+    "id": "pref_language",
+    "type": "Preference",
+    "label": "Language & Format Preferences",
+    "content": "Preferred language: English. Communication style: formal but conversational. Date format: DD/MM/YYYY. Currency: EUR. Measurement: metric (km, kg, Celsius). Prefers bullet-point summaries for complex information. Time zone: Europe/Dublin (IST, UTC+1 in summer).",
+    "intents": ["update_preferences", "capabilities"]
+  }
+]

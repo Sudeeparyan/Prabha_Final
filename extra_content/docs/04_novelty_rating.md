@@ -1,5 +1,5 @@
 # Novelty Assessment and Final Rating
-# Knowledge Graph-Based Editable Memory for Token-Efficient Personalised Banking AI
+# Knowledge Graph-Based Editable Memory for Token-Efficient Personalised AI Assistants
 
 **Student:** Jai Prabhas Malluri (24310875)
 
@@ -19,11 +19,11 @@ The output of an LSTM intent classifier trained on Banking77 is used as a routin
 
 The mechanism works as follows. The intent classifier predicts that a query is about a complaint. The routing layer maps complaint to Event nodes and FAQ nodes. The retrieval step searches only those node types using cosine similarity. The result is both more precise (only relevant nodes are retrieved) and cheaper (fewer nodes are searched and fewer tokens are returned).
 
-### Contribution 3: Typed Editable Memory in Banking Domain with Benchmark Evaluation
+### Contribution 3: Typed Editable Memory in Multi-Domain Personal Assistant with CLINC150 Benchmark
 
-The EMG structure in this thesis uses four typed node categories: FAQ, Preference, Event, and Account State. These types correspond to the four categories of information a banking assistant needs. The graph supports CRUD operations, allowing any node to be updated in real time without model retraining. This is demonstrated with latency measurements for each operation.
+The EMG structure in this thesis uses five typed node categories: FAQ, Preference, Event, AccountState, and Document. These types correspond to the five categories of information a personal AI assistant needs across 10 life domains. The graph supports CRUD operations, allowing any node to be updated in real time without model retraining. Document nodes are created dynamically from uploaded files (PDF, TXT, DOCX, MD), enabling the assistant's knowledge to grow at runtime. All CRUD operations are demonstrated with latency measurements.
 
-The evaluation uses the Banking77 benchmark, which has 77 fine-grained banking intents and published accuracy baselines above 92% from dual-encoder models. Existing EMG-RAG papers have not been evaluated on Banking77. Applying the architecture to this benchmark allows direct comparison with the existing literature and establishes a clear research baseline.
+The evaluation uses the CLINC150 benchmark, which has 150 fine-grained intents across 10 life domains (banking, travel, health, calendar, home, dining, work, auto, utility, meta) and published accuracy baselines above 92% from dual-encoder models. Existing EMG-RAG papers have not been evaluated on CLINC150. Applying the architecture to this multi-domain benchmark allows direct comparison with the existing literature and demonstrates that the intent-routing layer generalises across life domains, not just a single domain.
 
 ---
 
@@ -34,10 +34,12 @@ The evaluation uses the Banking77 benchmark, which has 77 fine-grained banking i
 | Editable memory nodes | Yes | No | Yes |
 | Intent classification routing | No | No | Yes |
 | Token cost measurement | No | No | Yes |
-| Typed node categories | Partially | No | Yes (4 types) |
-| Banking domain | No | No | Yes |
-| Published benchmark evaluation | No (custom eval) | No | Yes (Banking77) |
+| Typed node categories | Partially | No | Yes (5 types incl. Document) |
+| Multi-domain personal assistant | Yes (general) | No | Yes (CLINC150, 10 domains) |
+| Published benchmark evaluation | No (custom eval) | No | Yes (CLINC150) |
 | CRUD without retraining | Yes | No | Yes |
+| File upload → knowledge nodes | No | No | Yes (PDF/TXT/DOCX/MD) |
+| Web application with graph UI | No | No | Yes (Flask + vis.js) |
 
 ---
 
@@ -71,7 +73,7 @@ The rating is 9/10, well above the 8/10 threshold. Implementation begins.
 
 ### What the Code Must Prove
 
-Claim 1: LSTM intent accuracy on Banking77 test set exceeds 90%.
+Claim 1: Best intent classifier accuracy on CLINC150 test set exceeds 80% (150-class problem; harder than Banking77).
 Claim 2: Condition C (Intent-Guided EMG-RAG) achieves higher ROUGE-L than Condition B (Flat RAG) and Condition A (Direct LLM).
 Claim 3: Condition C uses fewer input tokens per query than Condition B.
 Claim 4: CRUD operations on the EMG complete in under 100 milliseconds each.

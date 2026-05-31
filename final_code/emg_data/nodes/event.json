@@ -1,0 +1,107 @@
+[
+  {
+    "id": "event_flight",
+    "type": "Event",
+    "label": "Paris Flight (Jul 2026)",
+    "content": "Flight booked: Ryanair FR2241, Dublin Terminal 1 to Paris CDG, 10 July 2026 at 07:45. Return FR2242, 17 July 2026 at 19:30. Booking reference: RY7821345. Carry-on only. Check-in opens 2 hours before.",
+    "intents": ["check_flight_status", "cancel_booking", "travel_documents"]
+  },
+  {
+    "id": "event_hotel",
+    "type": "Event",
+    "label": "Paris Hotel (Jul 2026)",
+    "content": "Hotel Le Marais, Paris 4th arr. Check-in 10 July 2026, check-out 17 July 2026. 7 nights. Reference: HLM2026. Free cancellation until 8 July 2026. Breakfast included daily. Room: Superior double, 4th floor.",
+    "intents": ["book_hotel", "cancel_booking"]
+  },
+  {
+    "id": "event_pto",
+    "type": "Event",
+    "label": "Paris PTO Approved",
+    "content": "PTO approved: 10-17 July 2026, 5 working days. Purpose: Paris holiday. Approved by Sarah Collins on 20 May 2026. Reference: HR2026PTO041. Remaining PTO after trip: 12 days.",
+    "intents": ["check_pto", "submit_leave"]
+  },
+  {
+    "id": "event_rent",
+    "type": "Event",
+    "label": "Monthly Rent Payment",
+    "content": "Rent EUR 1,200 due on 1st of every month to Dublin Lettings Agency. Next due: 1 June 2026. Direct debit from current account active. Last paid: 1 May 2026. Landlord contact: James Byrne, 087-555-1234.",
+    "intents": ["check_bill_due", "make_transfer"]
+  },
+  {
+    "id": "event_fraud",
+    "type": "Event",
+    "label": "Fraud Dispute Open",
+    "content": "Fraud dispute reference FD2026001: EUR 250 unauthorised transaction on 29 May 2026. Case opened with AIB fraud team. Temporary credit of EUR 250 issued on 30 May 2026. Expected resolution: 5 June 2026. Keep reference FD2026001 for follow-up.",
+    "intents": ["report_fraud"]
+  },
+  {
+    "id": "event_medication",
+    "type": "Event",
+    "label": "Daily Medication Log",
+    "content": "Daily Ramipril 5mg — blood pressure management. Take at 8:00am every morning with water. Last confirmed dose: 30 May 2026 at 08:02am. Next dose: 31 May 2026 at 08:00am. Prescription repeat due: 15 June 2026 at Boots Pharmacy, Grafton St.",
+    "intents": ["medication_reminder", "book_appointment"]
+  },
+  {
+    "id": "event_car",
+    "type": "Event",
+    "label": "Car Service (Jun 2026)",
+    "content": "Car service booked at Dublin Motors, Ringsend. Date: 15 June 2026 at 10:00am. Work: full oil change, tyre rotation, brake inspection, air filter check. Vehicle: VW Golf, Registration 211D12345. Contact: 01-456-7890. Last service: 1 December 2025.",
+    "intents": ["car_maintenance"]
+  },
+  {
+    "id": "event_course",
+    "type": "Event",
+    "label": "Coursera ML Course",
+    "content": "Enrolled: Advanced Machine Learning Specialisation on Coursera. Provider: DeepLearning.AI. Start date: 1 June 2026. Duration: 8 weeks. Submission deadline: 26 July 2026. Weekly commitment: 5-6 hours. Certificate on completion. Relevant to current role and MSc thesis.",
+    "intents": ["task_management", "check_schedule", "manage_todo"]
+  },
+  {
+    "id": "event_thesis",
+    "type": "Event",
+    "label": "MSc Thesis Deadline",
+    "content": "Research Practicum thesis due: 12 September 2026. Title: Knowledge Graph-Based Editable Memory for Token-Efficient Personalised AI Assistants. Supervisor: Dr. Kevin McDaid. Module: MSCODP1. Word limit: 15,000 words. Current status: implementation complete, writing in progress. Submit via Moodle portal.",
+    "intents": ["task_management", "check_schedule", "manage_todo"]
+  },
+  {
+    "id": "event_dentist",
+    "type": "Event",
+    "label": "Dentist Appointment",
+    "content": "Dental appointment: Dr. Aoife Ryan, Merrion Dental Clinic, 22 Merrion Road Dublin 4. Date: 20 June 2026 at 2:00pm. Routine check-up and scale and polish. Appointment ref: MDC-2026-0620. Contact: 01-668-9900. Previous visit: December 2025.",
+    "intents": ["book_appointment", "check_schedule", "set_reminder"]
+  },
+  {
+    "id": "event_gym",
+    "type": "Event",
+    "label": "Weekly Gym Schedule",
+    "content": "Gym: Flyefit Grand Canal Dock, Membership No. FF-22489. Schedule: Tuesday 6:30am (upper body), Thursday 6:30am (lower body and cardio), Saturday 9:00am (full body). Class: yoga at Ashtanga Dublin every Friday 6pm. Sunday run: Sandymount Strand 7am, 5km. Monthly membership: EUR 29.99 direct debit on 1st.",
+    "intents": ["track_fitness", "check_schedule", "set_alarm"]
+  },
+  {
+    "id": "event_subscriptions",
+    "type": "Event",
+    "label": "Monthly Subscriptions",
+    "content": "Active monthly subscriptions: Spotify Premium EUR 10.99 (charged 5th), Netflix Standard EUR 15.99 (charged 10th), Coursera Plus EUR 39.99 (charged 1st), iCloud 50GB EUR 0.99 (charged 1st), Leap card auto top-up EUR 30 when balance below EUR 5. Total monthly: EUR 97.96.",
+    "intents": ["check_bill_due", "check_balance"]
+  },
+  {
+    "id": "event_savings",
+    "type": "Event",
+    "label": "Monthly Savings Transfer",
+    "content": "Automated savings transfer: EUR 300 on 5th of every month from current account to AIB Savings Account (IBAN: IE29AIBK93115212345678). Next transfer: 5 June 2026. Savings balance as of 1 May 2026: EUR 8,400. Savings goal: EUR 15,000 (house deposit fund, target Dec 2027).",
+    "intents": ["check_balance", "make_transfer"]
+  },
+  {
+    "id": "event_exam",
+    "type": "Event",
+    "label": "NCI Module Exam",
+    "content": "NCI exam: Data Engineering and Cloud Platforms (MSCODP2). Date: 18 August 2026 at 10:00am. Venue: NCI Main Building, Mayor Street Lower, Dublin 1, Room 204. Duration: 2.5 hours. Open book: no. Study plan: 3 weeks of revision starting 28 July. Results expected: September 2026.",
+    "intents": ["check_schedule", "set_reminder", "task_management"]
+  },
+  {
+    "id": "event_electricity",
+    "type": "Event",
+    "label": "Electricity Bill",
+    "content": "Electricity bill: Electric Ireland, billed bi-monthly. Last bill: EUR 112.40 paid 15 April 2026. Next bill estimated: June 2026, approx EUR 95-120. Direct debit active on 15th of billing month. Smart meter installed — usage trackable in Electric Ireland app.",
+    "intents": ["check_bill_due", "control_home"]
+  }
+]

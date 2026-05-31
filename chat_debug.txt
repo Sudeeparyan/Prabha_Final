@@ -1,36 +1,9 @@
-21:39:25 === request received ===
-21:39:25 raw body: b'{"query":"What is my account balance?"}'
-21:39:25 query: 'What is my account balance?'
-21:39:25 calling _run_pipeline...
-21:39:28 _run_pipeline returned OK
-21:53:32 === request received ===
-21:53:32 raw body: b'{"query":"What is my account balance?"}'
-21:53:32 query: 'What is my account balance?'
-21:53:32 calling _run_pipeline...
-21:53:35 _run_pipeline returned OK
-22:24:50 === request received ===
-22:24:50 raw body: b'{"query":"My Paris flight details"}'
-22:24:50 query: 'My Paris flight details'
-22:24:50 calling _run_pipeline...
-22:24:56 _run_pipeline returned OK
-22:28:36 === request received ===
-22:28:36 raw body: b'{"query":"I am RCB fan"}'
-22:28:36 query: 'I am RCB fan'
-22:28:36 calling _run_pipeline...
-22:28:47 _run_pipeline returned OK
-23:38:46 === request received ===
-23:38:46 raw body: b'{"query":"My Paris flight details"}'
-23:38:46 query: 'My Paris flight details'
-23:38:46 calling _run_pipeline...
-23:38:48 _run_pipeline returned OK
-23:39:57 === request received ===
-23:39:57 raw body: b'{"query":"My Paris flight details"}'
-23:39:57 query: 'My Paris flight details'
-23:39:57 calling _run_pipeline...
-23:39:58 _run_pipeline returned OK
-23:41:57 === request received ===
-23:41:57 raw body: b'{"query":"Did I take medication?"}'
-23:41:57 query: 'Did I take medication?'
-15:24:13 === request received ===
-15:24:13 raw body: b'{"query":"My Paris flight details"}'
-15:24:13 query: 'My Paris flight details'
+17:08:38 === request received ===
+17:08:38 raw body: b'{"query":"Did I take medication?"}'
+17:08:38 query: 'Did I take medication?'
+17:10:39 === request received ===
+17:10:39 raw body: b'{"query":"Tell me my name?"}'
+17:10:39 query: 'Tell me my name?'
+17:11:07 === request received ===
+17:11:07 raw body: b'{"query":"Update in the node that my name is prabhas"}'
+17:11:07 query: 'Update in the node that my name is prabhas'

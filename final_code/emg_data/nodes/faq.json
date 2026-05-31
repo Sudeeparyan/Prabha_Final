@@ -1,0 +1,86 @@
+[
+  {
+    "id": "faq_transfers",
+    "type": "FAQ",
+    "label": "Bank Transfers FAQ",
+    "content": "Money transfers take 1-3 business days domestic, up to 5 days international. Daily transfer limit is EUR 10,000. Schedule future-dated transfers via online banking or the app. SEPA transfers within EU are free.",
+    "intents": ["make_transfer", "check_bill_due"]
+  },
+  {
+    "id": "faq_credit",
+    "type": "FAQ",
+    "label": "Credit Score FAQ",
+    "content": "Improve credit score: pay all bills on time, keep credit utilisation below 30%, avoid multiple credit applications within 6 months, maintain long-standing credit accounts. Score updates monthly with your bank.",
+    "intents": ["check_credit_score"]
+  },
+  {
+    "id": "faq_fraud",
+    "type": "FAQ",
+    "label": "Fraud Reporting FAQ",
+    "content": "Report fraud immediately: freeze card in the app or call 1800-123-456. Disputes resolved within 5 business days. Temporary credit issued during investigation. Keep dispute reference number safe.",
+    "intents": ["report_fraud"]
+  },
+  {
+    "id": "faq_travel",
+    "type": "FAQ",
+    "label": "Travel Policy FAQ",
+    "content": "Notify bank before international travel to prevent card blocks. Purchase travel insurance before departure date. Carry-on luggage limit 10kg. Check visa requirements 6-8 weeks before travel. EHIC card covers EU medical emergencies.",
+    "intents": ["book_flight", "travel_documents", "cancel_booking"]
+  },
+  {
+    "id": "faq_hotel",
+    "type": "FAQ",
+    "label": "Hotel Booking FAQ",
+    "content": "Free cancellation up to 48 hours before check-in. Standard check-in 3pm, check-out 11am. Early check-in subject to availability. Breakfast included only when pre-booked. Loyalty points on all stays.",
+    "intents": ["book_hotel", "cancel_booking"]
+  },
+  {
+    "id": "faq_pto",
+    "type": "FAQ",
+    "label": "PTO Policy FAQ",
+    "content": "PTO requests require 5 business days advance notice via HR portal. Annual allowance is 25 days. Unused days beyond 5 do not roll over. Emergency same-day leave requires manager approval. Parental and sick leave are separate entitlements.",
+    "intents": ["check_pto", "submit_leave"]
+  },
+  {
+    "id": "faq_medication",
+    "type": "FAQ",
+    "label": "Medication Guidance FAQ",
+    "content": "Never skip prescribed medication without consulting your GP. Set daily alarms at the same time. Keep a dose log in your health app. Store in cool dry place away from direct sunlight. Repeat prescriptions available every 28 days from your pharmacy.",
+    "intents": ["medication_reminder"]
+  },
+  {
+    "id": "faq_diet",
+    "type": "FAQ",
+    "label": "Vegetarian Gluten-Free Diet FAQ",
+    "content": "Balanced vegetarian gluten-free diet: chickpeas, lentils, beans for protein; leafy greens for iron and calcium; brown rice, quinoa, buckwheat for carbohydrates; nuts and seeds for healthy fats. Aim for 25g fibre daily.",
+    "intents": ["dietary_advice", "restaurant_suggest"]
+  },
+  {
+    "id": "faq_car",
+    "type": "FAQ",
+    "label": "Car Maintenance FAQ",
+    "content": "Oil change every 5,000-7,500 miles or every 6 months. Check tyre pressure monthly. Annual NCT required in Ireland for cars over 4 years. Full service covers brakes, fluids, air filter, battery, belts. Road tax renewed annually.",
+    "intents": ["car_maintenance"]
+  },
+  {
+    "id": "faq_capabilities",
+    "type": "FAQ",
+    "label": "What Jarvis Can Do",
+    "content": "Jarvis is Priya's personal AI assistant. Capabilities: banking (balance, transfers, fraud), travel (flights, hotels, documents), health (medication, appointments, fitness), calendar (schedule, reminders, alarms), work (PTO, meetings, tasks), education (course deadlines, study reminders), lifestyle (restaurants, commute, home devices, music, food orders).",
+    "intents": ["capabilities", "greeting"]
+  },
+  {
+    "id": "faq_education",
+    "type": "FAQ",
+    "label": "NCI Student Services FAQ",
+    "content": "NCI student services: library open Mon-Fri 9am-9pm, Sat 10am-5pm. Student ID gives access to JSTOR, Scopus, IEEE Xplore databases. Exam results published within 6 weeks of exam date. Academic appeals window: 10 working days after results. Student support email: support@ncirl.ie.",
+    "intents": ["capabilities", "task_management"]
+  },
+  {
+    "id": "faq_fitness",
+    "type": "FAQ",
+    "label": "Fitness Guidelines FAQ",
+    "content": "Recommended: 150 minutes moderate cardio per week or 75 minutes vigorous. Strength training 2-3 times per week. Rest day between strength sessions for muscle recovery. Hydrate 2-3 litres water daily. Post-workout: protein within 30 minutes. Sleep 7-9 hours for recovery.",
+    "intents": ["track_fitness", "book_appointment"]
+  }
+]

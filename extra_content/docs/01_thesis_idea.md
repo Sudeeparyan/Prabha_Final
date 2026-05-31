@@ -46,16 +46,17 @@ The system has three cooperating layers, each solving one of the three problems.
 Three models are trained to classify the intent of a user query: Logistic Regression, Random Forest, and Bidirectional LSTM. The predicted intent is not just a label. It is a routing signal that selects which node types in the memory graph are searched.
 
 **Layer 2 — Editable Memory Graph (solves Problem 2)**
-A typed knowledge graph stores user memory in four node categories:
-- FAQ nodes: general policy and domain knowledge (static, rarely changes)
-- Preference nodes: user-specific settings (communication channel, dietary needs, commute route)
-- Event nodes: time-stamped personal events (flights booked, bills due, medication doses, appointments)
-- AccountState nodes: current user profile facts (balance range, PTO days, health insurance plan)
+A typed knowledge graph stores user memory in five node categories:
+- FAQ nodes (10): general policy and domain knowledge across life domains (static, rarely changes)
+- Preference nodes (4): user-specific settings (dietary needs, commute route, notification preferences, music)
+- Event nodes (8): time-stamped personal events (flights booked, bills due, medication doses, appointments, car service, courses)
+- AccountState nodes (3): current user profile facts (financial state, health state, work state)
+- Document nodes (dynamic): chunks from uploaded files (PDF, TXT, DOCX, MD) added at runtime
 
-Nodes can be inserted, updated, or deleted without retraining any model. The graph is built once from the user's profile and updated in real time as the user's life changes.
+Nodes can be inserted, updated, or deleted without retraining any model. The graph is built once from the user's profile (25 static nodes, 16 directed edges) and updated in real time as the user's life changes or as new documents are uploaded.
 
 **Layer 3 — Token-Aware RAG with Gemini (solves Problem 1)**
-After the intent classifier selects which node types to search, the system retrieves 2 targeted nodes from the relevant graph region. These are passed as context to Gemini 2.5 Flash. The actual token count sent per query is measured using Gemini's count_tokens API and compared against two baselines: a direct LLM call with no context, and a flat RAG system that retrieves 3 documents without intent filtering. The thesis proves that targeted graph retrieval sends fewer tokens while producing better quality responses.
+After the intent classifier selects which node types to search, the system retrieves 2 targeted nodes from the relevant graph region. These are passed as context to Gemini 2.5 Flash via the `google.genai` SDK. The actual token count sent per query is measured using `gc.models.count_tokens()` and compared against two baselines: a direct LLM call with no context (Condition A), and a flat RAG system that retrieves 3 documents without intent filtering (Condition B). Condition C (intent-guided EMG-RAG) sends fewer tokens than Condition B while producing higher quality personalised responses.
 
 ---
 
@@ -130,7 +131,7 @@ Four measurable claims, each verified by the code:
 
 | Claim | Measurement | Target |
 |-------|-------------|--------|
-| Intent classification quality | Accuracy on CLINC150 test set | Best model > 90% |
+| Intent classification quality | Accuracy on CLINC150 test set (150-class) | Best model > 80% |
 | EMG-RAG response quality | ROUGE-L and BLEU vs ground truth | Condition C > Condition B |
 | Token efficiency | Gemini count_tokens API per query | Condition C tokens < Condition B |
 | Memory update speed | CRUD operation latency in milliseconds | All operations < 100ms |

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "acct_financial",
+    "type": "AccountState",
+    "label": "Financial Profile",
+    "content": "Current account balance: approx EUR 3,200. Savings account: EUR 8,400 (house deposit goal EUR 15,000 by Dec 2027). Credit score: 710 — Good (Experian). Monthly net income: EUR 4,500. Monthly outgoings: rent EUR 1,200, subscriptions EUR 98, gym EUR 30, savings EUR 300, food EUR 400. Disposable income approx EUR 2,472.",
+    "intents": ["check_balance", "check_credit_score", "check_bill_due", "check_pto"]
+  },
+  {
+    "id": "acct_health",
+    "type": "AccountState",
+    "label": "Health Profile",
+    "content": "Age: 29. Conditions: mild hypertension (managed with Ramipril 5mg daily). Allergies: shellfish (medical alert), gluten intolerance. Health insurance: VHI Plan B, policy number VHI-2026-88123. GP: Dr. Paul Nolan, Sandymount Medical Centre, 01-283-5500. Pharmacy: Boots Grafton Street. Step goal: 10,000/day. Average sleep: 7.1 hours.",
+    "intents": ["medication_reminder", "insurance_query", "track_fitness", "book_appointment"]
+  },
+  {
+    "id": "acct_work",
+    "type": "AccountState",
+    "label": "Work Profile",
+    "content": "Job title: Senior Data Analyst. Company: TechCorp Dublin. Manager: Sarah Collins (sarah.collins@techcorp.ie). Office: Grand Canal Dock, Dublin 2, Building 3, Desk 14A. Hours: 9am-5:30pm Mon-Thu, remote Fri. Team: Data Engineering. Slack: @priya.sharma. Annual salary: EUR 65,000 gross. PTO entitlement: 25 days, 17 remaining (12 after July).",
+    "intents": ["check_pto", "submit_leave", "work_schedule", "schedule_meeting"]
+  },
+  {
+    "id": "acct_education",
+    "type": "AccountState",
+    "label": "Education Profile",
+    "content": "Programme: MSc in Open Data Practice. Institution: National College of Ireland (NCI), Mayor Street Lower, Dublin 1. Year: 2nd year (final year). Student ID: NCI-24310875. Supervisor: Dr. Kevin McDaid. Modules: Research Practicum (thesis), Data Engineering and Cloud Platforms, Advanced Analytics. Expected graduation: October 2026. GPA: 3.7/4.0 (Distinction track). Library access card active.",
+    "intents": ["task_management", "check_schedule", "capabilities"]
+  },
+  {
+    "id": "acct_emergency",
+    "type": "AccountState",
+    "label": "Emergency Contacts & Home",
+    "content": "Home address: 14 Strand Road, Sandymount, Dublin 4, D04 X2Y1. Emergency contact 1: Meera Sharma (mother), +91-98765-43210. Emergency contact 2: Rohan Patel (friend, Dublin), +353-87-444-5678. GP emergency: Sandymount Medical Centre 01-283-5500. VHI 24hr nurse line: 1800-931-125. Nearest hospital: St Vincent's, Elm Park, Dublin 4.",
+    "intents": ["capabilities", "book_appointment"]
+  }
+]

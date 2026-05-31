@@ -43,10 +43,10 @@ flowchart TD
 
         FILTER --> FAQ_N["📄 FAQ Nodes  (10)\nDomain policy knowledge\nRarely changes"]
         FILTER --> PREF_N["⚙️ Preference Nodes  (4)\nUser-specific settings\nEditable anytime"]
-        FILTER --> EVT_N["📅 Event Nodes  (6+)\nTimestamped personal events\nHigh-change frequency"]
-        FILTER --> ACC_N["💳 AccountState Nodes  (2)\nCurrent profile facts\nPeriodically updated"]
+        FILTER --> EVT_N["📅 Event Nodes  (8)\nTimestamped personal events\nHigh-change frequency"]
+        FILTER --> ACC_N["💳 AccountState Nodes  (3)\nCurrent profile facts\nPeriodically updated"]
 
-        FAQ_N & PREF_N & EVT_N & ACC_N --> TOP_K(["🎯 Top-2 Typed Nodes\nMost relevant context retrieved"])
+        FAQ_N & PREF_N & EVT_N & ACC_N --> TOP_K(["🎯 Top-2 Typed Nodes\nMost relevant context retrieved\nDocument nodes also searched if uploaded"])
 
         CRUD["⚡ CRUD Operations\n────────────────────\nINSERT new node  < 21 ms\nUPDATE node content  < 21 ms\nDELETE node  < 8 ms\n────────────────────\n✅ No model retraining\n✅ Instant effect on next query\n(Solves Problem 2: Dynamic Memory)"]
 

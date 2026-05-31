@@ -141,126 +141,18 @@ except: pass
 emg_col   = chroma_client.create_collection("emg_demo", metadata={"hnsw:space": "cosine"})
 emg_graph = nx.DiGraph()
 
-EMG_NODES = [
-    # ── FAQ ──────────────────────────────────────────────────────────────────
-    {"id": "faq_transfers",   "type": "FAQ",
-     "label": "Transfers FAQ",
-     "content": "Money transfers: 1-3 days domestic, up to 5 days international. Daily limit EUR 10,000.",
-     "intents": ["make_transfer", "bill_balance"]},
-    {"id": "faq_credit",      "type": "FAQ",
-     "label": "Credit FAQ",
-     "content": "Improve credit score: pay bills on time, keep utilisation below 30%, avoid multiple applications.",
-     "intents": ["credit_score", "improve_credit_score"]},
-    {"id": "faq_fraud",       "type": "FAQ",
-     "label": "Fraud FAQ",
-     "content": "Report fraud: call bank or freeze card in app. Disputes resolved in 5 business days. Temp credit issued.",
-     "intents": ["report_fraud", "card_declined"]},
-    {"id": "faq_travel",      "type": "FAQ",
-     "label": "Travel FAQ",
-     "content": "Notify bank before international travel. Travel insurance before departure. Carry-on 10kg limit.",
-     "intents": ["book_flight", "travel_alert"]},
-    {"id": "faq_hotel",       "type": "FAQ",
-     "label": "Hotel FAQ",
-     "content": "Free cancellation up to 48 hours before check-in. Check-in 3pm, check-out 11am.",
-     "intents": ["book_hotel", "cancel_reservation"]},
-    {"id": "faq_pto",         "type": "FAQ",
-     "label": "PTO Policy",
-     "content": "PTO requests need 5 business days notice. Annual allowance 25 days. Unused days beyond 5 do not roll over.",
-     "intents": ["pto_request", "pto_balance"]},
-    {"id": "faq_medication",  "type": "FAQ",
-     "label": "Medication FAQ",
-     "content": "Never skip prescribed medication. Set daily reminders. Keep dose log. Store in cool dry place.",
-     "intents": ["reminder_update"]},
-    {"id": "faq_diet",        "type": "FAQ",
-     "label": "Diet FAQ",
-     "content": "Balanced vegetarian gluten-free diet: legumes for protein, leafy greens, rice, quinoa, nuts.",
-     "intents": ["restaurant_suggestion", "meal_suggestion"]},
-    {"id": "faq_car",         "type": "FAQ",
-     "label": "Car Maintenance",
-     "content": "Oil change every 5000-7500 miles or 6 months. Tyre pressure monthly. Annual service: brakes, fluids.",
-     "intents": ["oil_change_when", "schedule_maintenance"]},
-    {"id": "faq_capabilities","type": "FAQ",
-     "label": "System Help",
-     "content": "Jarvis assists with banking, travel, health, calendar, work PTO, restaurants, car, commute.",
-     "intents": ["what_can_i_ask_you", "greeting"]},
-
-    # ── Preference ────────────────────────────────────────────────────────────
-    {"id": "pref_dietary",    "type": "Preference",
-     "label": "Dietary Prefs",
-     "content": "Priya: vegetarian, gluten-intolerant. Allergic to shellfish. Preferred: Italian and Indian. Dinner under 600 cal.",
-     "intents": ["restaurant_suggestion", "meal_suggestion"]},
-    {"id": "pref_commute",    "type": "Preference",
-     "label": "Commute Prefs",
-     "content": "Commutes Sandymount D4 to Grand Canal Dock D2. DART from Sandymount. Leaves 8am weekdays.",
-     "intents": ["traffic", "directions"]},
-    {"id": "pref_notifications","type": "Preference",
-     "label": "Notification Prefs",
-     "content": "Prefers email for all notifications (updated 30 May 2026). Quiet hours 10pm-7am.",
-     "intents": ["reminder_update"]},
-    {"id": "pref_music",      "type": "Preference",
-     "label": "Music Prefs",
-     "content": "Lo-fi hip hop and ambient for commute. Jazz evenings. Morning: low tempo instrumental. Dislikes heavy metal.",
-     "intents": ["play_music"]},
-
-    # ── Event ─────────────────────────────────────────────────────────────────
-    {"id": "event_flight",    "type": "Event",
-     "label": "Paris Flight",
-     "content": "Ryanair FR2241 Dublin T1 to Paris CDG, 10 Jul 2026 07:45. Return FR2242 17 Jul 19:30. Ref RY7821345.",
-     "intents": ["flight_status", "book_flight"]},
-    {"id": "event_hotel",     "type": "Event",
-     "label": "Paris Hotel",
-     "content": "Hotel Le Marais Paris, 10-17 Jul 2026, Ref HLM2026. Free cancel until 8 Jul. Breakfast included.",
-     "intents": ["book_hotel", "cancel_reservation"]},
-    {"id": "event_pto",       "type": "Event",
-     "label": "PTO Approved",
-     "content": "PTO approved: 10-17 Jul 2026, 5 working days, Paris. Approved by Sarah Collins 20 May 2026. Ref HR2026PTO041.",
-     "intents": ["pto_balance", "pto_request_status"]},
-    {"id": "event_rent",      "type": "Event",
-     "label": "Rent Due",
-     "content": "Rent EUR 1,200 on 1st of each month to Dublin Lettings. Next due 1 Jun 2026. Direct debit active.",
-     "intents": ["bill_due", "bill_balance"]},
-    {"id": "event_fraud",     "type": "Event",
-     "label": "Fraud Dispute",
-     "content": "Fraud dispute FD2026001: EUR 250 unauthorised 29 May 2026. Temp credit issued. Resolution by 5 Jun 2026.",
-     "intents": ["report_fraud"]},
-    {"id": "event_medication","type": "Event",
-     "label": "Medication Log",
-     "content": "Daily Ramipril 5mg at 8am. Last dose 30 May 2026. Next dose 31 May 2026 08:00. Do not skip.",
-     "intents": ["reminder", "reminder_update"]},
-    {"id": "event_car",       "type": "Event",
-     "label": "Car Service",
-     "content": "Car service at Dublin Motors 15 Jun 2026 10am. Oil change, tyre rotation, brake check. Reg 211D12345.",
-     "intents": ["schedule_maintenance"]},
-    {"id": "event_course",    "type": "Event",
-     "label": "ML Course",
-     "content": "Advanced ML on Coursera, started 1 Jun 2026. 8-week duration. Deadline 26 Jul 2026.",
-     "intents": ["todo_list", "calendar"]},
-
-    # ── AccountState ──────────────────────────────────────────────────────────
-    {"id": "acct_financial",  "type": "AccountState",
-     "label": "Financial State",
-     "content": "Account balance ~EUR 3,200. Credit score 710 (Good). Monthly income EUR 4,500 net. 17 PTO days remaining.",
-     "intents": ["balance", "credit_score", "pto_balance"]},
-    {"id": "acct_health",     "type": "AccountState",
-     "label": "Health State",
-     "content": "Age 29. Daily Ramipril 5mg for blood pressure. Health insurance VHI Plan B. Step goal 10,000/day.",
-     "intents": ["vaccines", "insurance"]},
-    {"id": "acct_work",       "type": "AccountState",
-     "label": "Work State",
-     "content": "Senior Data Analyst at TechCorp Dublin. Manager: Sarah Collins. Office: Grand Canal Dock. Remote Fridays.",
-     "intents": ["pto_request", "make_call"]},
-]
-
-EDGES = [
-    ("event_flight",    "faq_travel"),    ("event_hotel",    "faq_hotel"),
-    ("event_fraud",     "faq_fraud"),     ("event_rent",     "acct_financial"),
-    ("event_medication","faq_medication"),("event_pto",      "acct_work"),
-    ("event_car",       "faq_car"),       ("pref_dietary",   "faq_diet"),
-    ("pref_commute",    "acct_work"),     ("pref_notifications","acct_work"),
-    ("acct_financial",  "acct_work"),     ("acct_health",    "faq_medication"),
-    ("event_course",    "acct_work"),     ("event_fraud",    "acct_financial"),
-    ("event_rent",      "faq_transfers"), ("faq_credit",     "acct_financial"),
-]
+# ── Load nodes from emg_data/all_nodes.json (edit that file to add/change nodes)
+_emg_data_file = os.path.join(script_dir, "emg_data", "all_nodes.json")
+try:
+    with open(_emg_data_file, "r", encoding="utf-8") as _f:
+        _emg_data = json.load(_f)
+    EMG_NODES = _emg_data["nodes"]
+    EDGES     = [tuple(e) for e in _emg_data["edges"]]
+    print(f"    Loaded {len(EMG_NODES)} nodes, {len(EDGES)} edges from emg_data/all_nodes.json")
+except Exception as _e:
+    print(f"    [WARN] Could not load emg_data/all_nodes.json: {_e} — using inline defaults")
+    EMG_NODES = []
+    EDGES = []
 
 def add_node(n):
     emg_graph.add_node(n["id"], type=n["type"], content=n["content"],
@@ -289,28 +181,46 @@ if _restored:
 
 print(f"    EMG ready  ({emg_graph.number_of_nodes()} nodes, {emg_graph.number_of_edges()} edges)")
 
-# ── 3. Intent routing table ───────────────────────────────────────────────────
+# ── 3. Intent routing table (synthetic intent names → EMG node types) ─────────
 INTENT_NODE_MAP = {
-    "balance": ["AccountState","Event"], "transactions": ["Event","AccountState"],
-    "transfer": ["FAQ","AccountState"],  "bill_balance": ["Event","AccountState"],
-    "bill_due": ["Event","AccountState"],"pay_bill": ["Event","FAQ"],
-    "credit_score": ["AccountState","FAQ"], "improve_credit_score": ["FAQ","AccountState"],
-    "report_fraud": ["Event","FAQ"],     "card_declined": ["FAQ","AccountState"],
-    "spending_history": ["AccountState","Event"], "income": ["AccountState"],
-    "book_flight": ["Event","FAQ"],      "flight_status": ["Event"],
-    "book_hotel": ["Event","FAQ"],       "cancel_reservation": ["Event","FAQ"],
-    "travel_alert": ["FAQ","Event"],     "carry_on": ["FAQ"],
-    "calendar": ["Event"],              "reminder": ["Event","Preference"],
-    "reminder_update": ["Event","Preference"], "todo_list": ["Event"],
-    "restaurant_suggestion": ["Preference","FAQ"], "meal_suggestion": ["Preference","FAQ"],
-    "recipe": ["FAQ","Preference"],      "calories": ["FAQ","AccountState"],
-    "vaccines": ["FAQ","AccountState"],  "insurance": ["AccountState","FAQ"],
-    "pto_request": ["AccountState","Event"], "pto_balance": ["AccountState","Event"],
-    "pto_request_status": ["Event","AccountState"], "schedule_maintenance": ["Event","FAQ"],
-    "last_maintenance": ["Event","FAQ"], "traffic": ["Preference","AccountState"],
-    "directions": ["Preference","AccountState"], "play_music": ["Preference"],
-    "what_can_i_ask_you": ["FAQ"],       "greeting": ["FAQ","Preference"],
-    "oos": ["FAQ"],
+    # Finance
+    "check_balance":        ["AccountState", "Event"],
+    "make_transfer":        ["FAQ", "AccountState"],
+    "check_bill_due":       ["Event", "AccountState"],
+    "check_credit_score":   ["AccountState", "FAQ"],
+    "report_fraud":         ["Event", "FAQ"],
+    # Travel
+    "book_flight":          ["Event", "FAQ"],
+    "check_flight_status":  ["Event", "FAQ"],
+    "book_hotel":           ["Event", "FAQ"],
+    "cancel_booking":       ["Event", "FAQ"],
+    "travel_documents":     ["FAQ", "Event"],
+    # Health
+    "medication_reminder":  ["Event", "Preference"],
+    "insurance_query":      ["AccountState", "FAQ"],
+    "book_appointment":     ["AccountState", "FAQ"],
+    "track_fitness":        ["AccountState", "Preference"],
+    "dietary_advice":       ["Preference", "FAQ"],
+    # Work & Calendar
+    "check_pto":            ["AccountState", "Event"],
+    "submit_leave":         ["AccountState", "Event"],
+    "work_schedule":        ["AccountState", "Event"],
+    "task_management":      ["Event", "AccountState"],
+    "schedule_meeting":     ["AccountState", "Event"],
+    "manage_todo":          ["Event", "AccountState"],
+    "check_schedule":       ["Event", "AccountState"],
+    # Lifestyle
+    "commute_traffic":      ["Preference", "AccountState"],
+    "restaurant_suggest":   ["Preference", "FAQ"],
+    "order_food":           ["Preference", "FAQ"],
+    "set_reminder":         ["Event", "Preference"],
+    "set_alarm":            ["Event", "Preference"],
+    # System
+    "update_preferences":   ["Preference", "AccountState"],
+    "control_home":         ["Preference", "FAQ"],
+    "capabilities":         ["FAQ"],
+    "greeting":             ["FAQ", "Preference"],
+    "out_of_scope":         ["FAQ"],
 }
 
 # ── 4. Gemini client ──────────────────────────────────────────────────────────
@@ -379,31 +289,55 @@ def flat_retrieve(query, top_k=3):
                         "label": meta.get("label", nid), "content": doc})
     return out
 
-def intent_retrieve(query, intent, top_k=2):
+def intent_retrieve(query, intent, top_k=3):
     node_types = INTENT_NODE_MAP.get(intent, ["FAQ"])
     q_emb = sbert.encode(query).tolist()
+
+    # Primary: type-filtered vector search
     wf = ({"node_type": node_types[0]} if len(node_types) == 1
           else {"node_type": {"$in": node_types}})
     n = min(top_k, emg_col.count())
     res = emg_col.query(query_embeddings=[q_emb], n_results=n, where=wf)
     out = []
+    seen = set()
     if res["documents"] and res["documents"][0]:
         for doc, meta, nid in zip(res["documents"][0], res["metadatas"][0], res["ids"][0]):
             out.append({"node_id": nid, "node_type": meta["node_type"],
                         "label": meta.get("label", nid), "content": doc})
+            seen.add(nid)
 
-    # Also search uploaded Document nodes as additional context
+    # Graph expansion: add 1-hop neighbours of retrieved nodes
+    neighbours = []
+    for nid in list(seen):
+        if nid in emg_graph.nodes:
+            for nb in list(emg_graph.successors(nid)) + list(emg_graph.predecessors(nid)):
+                if nb not in seen:
+                    d = emg_graph.nodes[nb]
+                    neighbours.append({"node_id": nb, "node_type": d.get("type", "FAQ"),
+                                       "label": d.get("label", nb), "content": d.get("content", "")})
+                    seen.add(nb)
+    # Score neighbours by cosine similarity and keep the best one
+    if neighbours:
+        import numpy as np
+        q_vec = np.array(q_emb)
+        def cos(text):
+            v = np.array(sbert.encode(text).tolist())
+            return float(np.dot(q_vec, v) / (np.linalg.norm(q_vec) * np.linalg.norm(v) + 1e-9))
+        best_nb = max(neighbours, key=lambda x: cos(x["content"]))
+        out.append(best_nb)
+
+    # Also search uploaded Document nodes
     doc_count = sum(1 for _, d in emg_graph.nodes(data=True) if d.get("type") == "Document")
     if doc_count > 0:
         try:
             dr = emg_col.query(query_embeddings=[q_emb], n_results=min(2, doc_count),
                                where={"node_type": "Document"})
             if dr["documents"] and dr["documents"][0]:
-                existing = {x["node_id"] for x in out}
                 for doc, meta, nid in zip(dr["documents"][0], dr["metadatas"][0], dr["ids"][0]):
-                    if nid not in existing:
+                    if nid not in seen:
                         out.append({"node_id": nid, "node_type": meta["node_type"],
                                     "label": meta.get("label", nid), "content": doc})
+                        seen.add(nid)
         except Exception:
             pass
 
@@ -544,11 +478,11 @@ def _run_pipeline(query):
 
     # Step 4a: EMG retrieval
     t0 = time.time()
-    c_nodes = intent_retrieve(query, intent, top_k=2)
+    c_nodes = intent_retrieve(query, intent, top_k=3)
     emg_ms  = round((time.time()-t0)*1000, 1)
     steps.append({"step": 4, "icon": "graph",
-                  "label": "EMG Retrieval  (Intent-Guided)",
-                  "detail": (f"Retrieved {len(c_nodes)} nodes from [{', '.join(node_types)}]: "
+                  "label": "EMG Retrieval  (Intent-Guided + Graph Neighbour Expansion)",
+                  "detail": (f"Retrieved {len(c_nodes)} nodes from [{', '.join(node_types)}] + neighbours: "
                              f"<b>{', '.join(n['node_id'] for n in c_nodes)}</b>"),
                   "ms": emg_ms,
                   "retrieved_ids": [n["node_id"] for n in c_nodes],
@@ -558,20 +492,47 @@ def _run_pipeline(query):
     b_nodes = flat_retrieve(query, top_k=3)
 
     # Step 5: generate all three conditions
-    prompt_a = (f"You are Jarvis, a personalised AI assistant. Answer briefly.\n\n"
-                f"Query: {query}\nAnswer:")
+    # Condition A — direct LLM, no context (baseline: measures hallucination risk)
+    prompt_a = (
+        f"You are Jarvis, a personal AI assistant. Answer from general knowledge only.\n\n"
+        f"Query: {query}\n"
+        f"Answer:"
+    )
     tok_a = count_tokens(prompt_a)
 
-    ctx_b    = "\n".join([f"- {n['content']}" for n in b_nodes]) or "No context."
-    prompt_b = (f"You are Jarvis. Use only the context below.\n\n"
-                f"Context:\n{ctx_b}\n\nQuery: {query}\nAnswer:")
-    tok_b    = count_tokens(prompt_b)
+    # Condition B — flat RAG: 3 unfiltered cosine-similar nodes (no intent routing)
+    ctx_b = "\n\n".join([
+        f"[{n['node_type'].upper()} — {n.get('label', n['node_id'])}]\n{n['content']}"
+        for n in b_nodes
+    ]) or "No context available."
+    prompt_b = (
+        f"You are Jarvis, a personal AI assistant. Answer using ONLY the context below.\n"
+        f"Do not add information not present in the context.\n\n"
+        f"Context:\n{ctx_b}\n\n"
+        f"Query: {query}\n"
+        f"Answer:"
+    )
+    tok_b = count_tokens(prompt_b)
 
-    ctx_c    = "\n".join([f"[{n['node_type']}] {n['content']}" for n in c_nodes]) or "No context."
-    prompt_c = (f"You are Jarvis, a personalised AI assistant.\n"
-                f"Detected intent: {intent}\n"
-                f"Use only the retrieved personalised information.\n\n"
-                f"Retrieved Info:\n{ctx_c}\n\nQuery: {query}\nPersonalised Answer:")
+    # Condition C — Intent-Guided EMG-RAG: typed nodes + graph neighbours (this thesis)
+    ctx_c = "\n\n".join([
+        f"[{n['node_type'].upper()} — {n.get('label', n['node_id'])}]\n{n['content']}"
+        for n in c_nodes
+    ]) or "No personalised context found."
+    prompt_c = (
+        f"You are Jarvis, Priya's personal AI assistant. You have access to Priya's live personal data.\n"
+        f"User intent: {intent}\n\n"
+        f"PERSONALISED DATA (use ONLY these facts — include exact dates, amounts, names, "
+        f"reference numbers as they appear below):\n"
+        f"{ctx_c}\n\n"
+        f"Query: {query}\n\n"
+        f"Rules:\n"
+        f"- Answer using only facts from PERSONALISED DATA above.\n"
+        f"- Quote specific values (dates, amounts, refs) directly from the data.\n"
+        f"- Write one clear, complete paragraph — no bullet points.\n"
+        f"- If the data does not answer the query, say so honestly.\n"
+        f"Personalised Answer:"
+    )
     tok_c    = count_tokens(prompt_c)
 
     t0 = time.time()
@@ -614,10 +575,10 @@ def _run_pipeline(query):
                   "nodes": [], "label": "Direct LLM (no context)"},
             "B": {"response": str(resp_b), "tokens": tok_b,
                   "nodes": [clean_node(n) for n in b_nodes],
-                  "label": "Flat RAG (cosine, 3 docs)"},
+                  "label": "Flat RAG (cosine, 3 docs, no intent filter)"},
             "C": {"response": str(resp_c), "tokens": tok_c,
                   "nodes": [clean_node(n) for n in c_nodes],
-                  "label": "Intent EMG-RAG (typed, 2 nodes)"},
+                  "label": "Intent EMG-RAG (typed + graph expansion)"},
         },
         "graph_highlights": {
             "emg_nodes":  [str(n["node_id"]) for n in c_nodes],
