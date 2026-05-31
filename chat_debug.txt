@@ -18,3 +18,19 @@
 22:28:36 query: 'I am RCB fan'
 22:28:36 calling _run_pipeline...
 22:28:47 _run_pipeline returned OK
+23:38:46 === request received ===
+23:38:46 raw body: b'{"query":"My Paris flight details"}'
+23:38:46 query: 'My Paris flight details'
+23:38:46 calling _run_pipeline...
+23:38:48 _run_pipeline returned OK
+23:39:57 === request received ===
+23:39:57 raw body: b'{"query":"My Paris flight details"}'
+23:39:57 query: 'My Paris flight details'
+23:39:57 calling _run_pipeline...
+23:39:58 _run_pipeline returned OK
+23:41:57 === request received ===
+23:41:57 raw body: b'{"query":"Did I take medication?"}'
+23:41:57 query: 'Did I take medication?'
+15:24:13 === request received ===
+15:24:13 raw body: b'{"query":"My Paris flight details"}'
+15:24:13 query: 'My Paris flight details'

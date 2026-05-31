@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "ts": "2026-05-30 23:42",
+    "query": "Did I take medication?",
+    "intent": "spending_history",
+    "response": "Your last dose of Daily Ramipril 5mg was recorded on 30 May 2026. Your next dose is scheduled for 31 May 2026 at 08:00. Please remember not to skip it.",
+    "tokens": 133,
+    "ms": 19221
+  },
+  {
+    "id": 2,
+    "ts": "2026-05-31 15:24",
+    "query": "My Paris flight details",
+    "intent": "flight_status",
+    "response": "Your flight to Paris is Ryanair flight FR2241, departing from Dublin T1 to Paris CDG on 10 July 2026 at 07:45. Your reference number is RY7821345.",
+    "tokens": 144,
+    "ms": 4598
+  }
+]
